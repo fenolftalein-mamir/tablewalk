@@ -97,9 +97,9 @@ See the [issue page](https://github.com/fenolftalein-mamir/tablewalk/issues) for
 
 ## Contributing
 
-You can contribute to the project not with 
+You can contribute to the project not only with code, you can also translate.
 
-Any code change should be submitted as a pull request. The description should explain what the code does and give steps to execute it.
+Any code change or translation should be submitted as a pull request. The description should explain what the code does and give steps to execute it/what language is translated.
 
 ## License
 
