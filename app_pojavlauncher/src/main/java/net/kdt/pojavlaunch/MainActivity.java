@@ -44,6 +44,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.kdt.LoggerView;
 
+import net.kdt.pojavlaunch.authenticator.accounts.PojavProfile;
 import net.kdt.pojavlaunch.customcontrols.ControlButtonMenuListener;
 import net.kdt.pojavlaunch.customcontrols.ControlData;
 import net.kdt.pojavlaunch.customcontrols.ControlDrawerData;
@@ -63,7 +64,7 @@ import net.kdt.pojavlaunch.services.GameService;
 import net.kdt.pojavlaunch.utils.JREUtils;
 import net.kdt.pojavlaunch.utils.MCOptionUtils;
 import net.kdt.pojavlaunch.utils.TouchControllerUtils;
-import net.kdt.pojavlaunch.value.MinecraftAccount;
+import net.kdt.pojavlaunch.authenticator.accounts.MinecraftAccount;
 import net.kdt.pojavlaunch.value.launcherprofiles.LauncherProfiles;
 import net.kdt.pojavlaunch.value.launcherprofiles.MinecraftProfile;
 
@@ -94,7 +95,7 @@ public class MainActivity extends BaseActivity implements ControlButtonMenuListe
     private ControlLayout mControlLayout;
     private HotbarView mHotbarView;
 
-    MinecraftProfile minecraftProfile;
+    MinecraftAccount minecraftAccount;
 
     private ArrayAdapter<String> gameActionArrayAdapter;
     private AdapterView.OnItemClickListener gameActionClickListener;
@@ -137,7 +138,7 @@ public class MainActivity extends BaseActivity implements ControlButtonMenuListe
             }
         }
 
-        minecraftProfile = LauncherProfiles.getCurrentProfile();
+        minecraftAccount = PojavProfile.getCurrentProfileContent(true);
 
         String gameDirPath = Tools.getGameDirPath(minecraftProfile).getAbsolutePath();
         MCOptionUtils.load(gameDirPath);
@@ -459,7 +460,6 @@ public class MainActivity extends BaseActivity implements ControlButtonMenuListe
             if (Integer.parseInt(assetVersion) <= 12) folder.mkdir();
         } catch (NumberFormatException e) { folder.mkdir(); }
 
-        MinecraftAccount minecraftAccount = PojavProfile.getCurrentProfileContent(this, null);
         Logger.appendToLog("--------- Starting game with Launcher Debug!");
         Tools.printLauncherInfo(versionId, Tools.isValidString(minecraftProfile.javaArgs) ? minecraftProfile.javaArgs : LauncherPreferences.PREF_CUSTOM_JAVA_ARGS);
         if(Tools.LOCAL_RENDERER.equals("opengles_mobileglues")) {

@@ -96,7 +96,7 @@ public class MainMenuFragment extends Fragment {
     @Override
     public void onResume() {
         super.onResume();
-        mVersionSpinner.reloadProfiles();
+        ExtraCore.setValue(ExtraConstants.REFRESH_ACCOUNT_SPINNER, true);
     }
 
     private void runInstallerWithConfirmation(boolean isCustomArgs) {

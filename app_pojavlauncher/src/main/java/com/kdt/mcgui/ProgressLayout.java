@@ -12,11 +12,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
-import androidx.collection.ArrayMap;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
 import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.extra.ExtraCore;
 import net.kdt.pojavlaunch.progresskeeper.ProgressKeeper;
 import net.kdt.pojavlaunch.progresskeeper.ProgressListener;
 import net.kdt.pojavlaunch.progresskeeper.TaskCountListener;
@@ -34,7 +32,7 @@ public class ProgressLayout extends ConstraintLayout implements View.OnClickList
     public static final String UNPACK_RUNTIME = "unpack_runtime";
     public static final String DOWNLOAD_MINECRAFT = "download_minecraft";
     public static final String DOWNLOAD_VERSION_LIST = "download_verlist";
-    public static final String AUTHENTICATE_MICROSOFT = "authenticate_microsoft";
+    public static final String AUTHENTICATE = "authenticate";
     public static final String INSTALL_MODPACK = "install_modpack";
     public static final String EXTRACT_COMPONENTS = "extract_components";
     public static final String EXTRACT_SINGLE_FILES = "extract_single_files";

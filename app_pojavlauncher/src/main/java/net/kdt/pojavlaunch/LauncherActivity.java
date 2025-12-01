@@ -24,8 +24,8 @@ import androidx.fragment.app.FragmentContainerView;
 import androidx.fragment.app.FragmentManager;
 
 import com.kdt.mcgui.ProgressLayout;
-import com.kdt.mcgui.mcAccountSpinner;
 
+import net.kdt.pojavlaunch.authenticator.accounts.PojavProfile;
 import net.kdt.pojavlaunch.contracts.OpenDocumentWithExtension;
 import net.kdt.pojavlaunch.extra.ExtraConstants;
 import net.kdt.pojavlaunch.extra.ExtraCore;
@@ -61,7 +61,6 @@ public class LauncherActivity extends BaseActivity {
                 if(data != null) Tools.launchModInstaller(this, data);
             });
 
-    private mcAccountSpinner mAccountSpinner;
     private FragmentContainerView mFragmentView;
     private ImageButton mSettingsButton;
     private ProgressLayout mProgressLayout;
@@ -122,7 +121,7 @@ public class LauncherActivity extends BaseActivity {
             return false;
         }
 
-        if(mAccountSpinner.getSelectedAccount() == null){
+        if(PojavProfile.getCurrentProfileContent(true) == null){
             Toast.makeText(this, R.string.no_saved_accounts, Toast.LENGTH_LONG).show();
             ExtraCore.setValue(ExtraConstants.SELECT_AUTH_METHOD, true);
             return false;
@@ -239,7 +238,7 @@ public class LauncherActivity extends BaseActivity {
         mProgressLayout.observe(ProgressLayout.DOWNLOAD_MINECRAFT);
         mProgressLayout.observe(ProgressLayout.UNPACK_RUNTIME);
         mProgressLayout.observe(ProgressLayout.INSTALL_MODPACK);
-        mProgressLayout.observe(ProgressLayout.AUTHENTICATE_MICROSOFT);
+        mProgressLayout.observe(ProgressLayout.AUTHENTICATE);
         mProgressLayout.observe(ProgressLayout.DOWNLOAD_VERSION_LIST);
     }
 
@@ -380,7 +379,6 @@ public class LauncherActivity extends BaseActivity {
     private void bindViews(){
         mFragmentView = findViewById(R.id.container_fragment);
         mSettingsButton = findViewById(R.id.setting_button);
-        mAccountSpinner = findViewById(R.id.account_spinner);
         mProgressLayout = findViewById(R.id.progress_layout);
     }
 }
