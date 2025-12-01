@@ -8,7 +8,7 @@
 
 *From [Boardwalk](https://github.com/zhuowei/Boardwalk)'s ashes and [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher)'s work, using [Amethyst](https://github.com/AngelAuraMC/Amethyst-Android) as base, presenting tablewalk!*
 
-tablewalk is an app to run the block game on your Android device, built with performance in mind. 
+tablewalk is an app to run the block game on your Android device, built with extra patches.
 
 ## things
 
@@ -126,6 +126,8 @@ This project is licensed under [GNU LGPLv3](https://github.com/fenolftalein-mami
   * [pfffft](https://bitbucket.org/jpommier/pffft/src/master/): [ARR](app_pojavlauncher/src/main/assets/licenses/PFFFT_LICENSE)
 * [SDL3](https://github.com/libsdl-org/SDL): [zlib License](https://github.com/libsdl-org/SDL/blob/main/LICENSE.txt)
 * [sdl2-compat](https://github.com/libsdl-org/sdl2-compat): [zlib License](https://github.com/libsdl-org/sdl2-compat/blob/main/LICENSE.txt)
+* [MojoLauncher](https://github.com/MojoLauncher/MojoLauncher) (a lot of ely.by code is taken from here): [LGPL-3.0 License](https://github.com/MojoLauncher/MojoLauncher/blob/v3_openjdk/LICENSE)
+* [authlib-injector](https://github.com/yushijinhun/authlib-injector) (used for ely.by support): [AGPL-3.0](https://github.com/yushijinhun/authlib-injector/blob/develop/LICENSE).
 * Thanks to [MCHeads](https://mc-heads.net) for providing Minecraft avatars.
 
 ## Roadmap
