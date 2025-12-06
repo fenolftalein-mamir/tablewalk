@@ -80,7 +80,7 @@ configurations {
 }
 
 android {
-    namespace 'net.kdt.pojavlaunch'
+    namespace 'org.tablewalk'
 
     compileSdk = 34
 
