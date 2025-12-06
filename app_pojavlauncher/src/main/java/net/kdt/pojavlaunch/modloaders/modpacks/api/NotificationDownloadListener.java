@@ -1,14 +1,14 @@
-package net.kdt.pojavlaunch.modloaders.modpacks.api;
+package org.tablewalk.modloaders.modpacks.api;
 
 import android.content.Context;
 import android.content.Intent;
 
-import net.kdt.pojavlaunch.LauncherActivity;
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.modloaders.ModloaderDownloadListener;
-import net.kdt.pojavlaunch.modloaders.modpacks.ModloaderInstallTracker;
-import net.kdt.pojavlaunch.utils.NotificationUtils;
+import org.tablewalk.LauncherActivity;
+import org.tablewalk.R;
+import org.tablewalk.Tools;
+import org.tablewalk.modloaders.ModloaderDownloadListener;
+import org.tablewalk.modloaders.modpacks.ModloaderInstallTracker;
+import org.tablewalk.utils.NotificationUtils;
 
 import java.io.File;
 

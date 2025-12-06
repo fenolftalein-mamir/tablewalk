@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.fragments;
+package org.tablewalk.fragments;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -14,12 +14,12 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.extra.ExtraCore;
-import net.kdt.pojavlaunch.modloaders.ModloaderDownloadListener;
-import net.kdt.pojavlaunch.modloaders.ModloaderListenerProxy;
-import net.kdt.pojavlaunch.progresskeeper.ProgressKeeper;
+import org.tablewalk.R;
+import org.tablewalk.Tools;
+import org.tablewalk.extra.ExtraCore;
+import org.tablewalk.modloaders.ModloaderDownloadListener;
+import org.tablewalk.modloaders.ModloaderListenerProxy;
+import org.tablewalk.progresskeeper.ProgressKeeper;
 
 import java.io.File;
 import java.io.IOException;

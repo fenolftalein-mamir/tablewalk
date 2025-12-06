@@ -1,9 +1,9 @@
-package net.kdt.pojavlaunch.authenticator.impl;
+package org.tablewalk.authenticator.impl;
 
 import android.util.Log;
 
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.authenticator.model.OAuthTokenResponse;
+import org.tablewalk.Tools;
+import org.tablewalk.authenticator.model.OAuthTokenResponse;
 
 import java.io.IOException;
 import java.io.InputStreamReader;

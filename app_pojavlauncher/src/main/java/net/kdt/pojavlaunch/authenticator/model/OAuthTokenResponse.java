@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.authenticator.model;
+package org.tablewalk.authenticator.model;
 
 import com.google.gson.annotations.SerializedName;
 

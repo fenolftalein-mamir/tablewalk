@@ -1,11 +1,11 @@
-package net.kdt.pojavlaunch.modloaders.modpacks.api;
+package org.tablewalk.modloaders.modpacks.api;
 
 import android.util.ArrayMap;
 import android.util.Log;
 
 import com.google.gson.Gson;
 
-import net.kdt.pojavlaunch.Tools;
+import org.tablewalk.Tools;
 
 import java.io.IOException;
 import java.io.InputStream;

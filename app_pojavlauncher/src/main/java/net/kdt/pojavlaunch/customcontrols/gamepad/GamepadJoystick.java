@@ -1,13 +1,13 @@
-package net.kdt.pojavlaunch.customcontrols.gamepad;
+package org.tablewalk.customcontrols.gamepad;
 
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_DEADZONE_SCALE;
+import static org.tablewalk.prefs.LauncherPreferences.PREF_DEADZONE_SCALE;
 
 import android.util.Log;
 import android.view.InputDevice;
 import android.view.MotionEvent;
 
 
-import net.kdt.pojavlaunch.utils.MathUtils;
+import org.tablewalk.utils.MathUtils;
 
 public class GamepadJoystick {
 

@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.fragments;
+package org.tablewalk.fragments;
 
 import android.content.Context;
 import android.content.Intent;
@@ -7,13 +7,13 @@ import android.widget.ExpandableListAdapter;
 
 import androidx.annotation.NonNull;
 
-import net.kdt.pojavlaunch.JavaGUILauncherActivity;
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.modloaders.ForgeDownloadTask;
-import net.kdt.pojavlaunch.modloaders.ForgeUtils;
-import net.kdt.pojavlaunch.modloaders.ForgeVersionListAdapter;
-import net.kdt.pojavlaunch.modloaders.ModloaderListenerProxy;
+import org.tablewalk.JavaGUILauncherActivity;
+import org.tablewalk.R;
+import org.tablewalk.Tools;
+import org.tablewalk.modloaders.ForgeDownloadTask;
+import org.tablewalk.modloaders.ForgeUtils;
+import org.tablewalk.modloaders.ForgeVersionListAdapter;
+import org.tablewalk.modloaders.ModloaderListenerProxy;
 
 import java.io.File;
 import java.io.IOException;

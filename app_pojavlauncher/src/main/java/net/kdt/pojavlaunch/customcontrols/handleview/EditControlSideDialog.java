@@ -1,9 +1,9 @@
-package net.kdt.pojavlaunch.customcontrols.handleview;
+package org.tablewalk.customcontrols.handleview;
 
 import static android.view.View.GONE;
 import static android.view.View.VISIBLE;
 
-import static net.kdt.pojavlaunch.Tools.currentDisplayMetrics;
+import static org.tablewalk.Tools.currentDisplayMetrics;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -21,18 +21,18 @@ import android.widget.TextView;
 
 import com.kdt.SideDialogView;
 
-import net.kdt.pojavlaunch.EfficientAndroidLWJGLKeycode;
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.colorselector.ColorSelector;
-import net.kdt.pojavlaunch.customcontrols.ControlData;
-import net.kdt.pojavlaunch.customcontrols.ControlDrawerData;
-import net.kdt.pojavlaunch.customcontrols.ControlJoystickData;
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlDrawer;
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlInterface;
-import net.kdt.pojavlaunch.utils.interfaces.SimpleItemSelectedListener;
-import net.kdt.pojavlaunch.utils.interfaces.SimpleSeekBarListener;
-import net.kdt.pojavlaunch.utils.interfaces.SimpleTextWatcher;
+import org.tablewalk.EfficientAndroidLWJGLKeycode;
+import org.tablewalk.R;
+import org.tablewalk.Tools;
+import org.tablewalk.colorselector.ColorSelector;
+import org.tablewalk.customcontrols.ControlData;
+import org.tablewalk.customcontrols.ControlDrawerData;
+import org.tablewalk.customcontrols.ControlJoystickData;
+import org.tablewalk.customcontrols.buttons.ControlDrawer;
+import org.tablewalk.customcontrols.buttons.ControlInterface;
+import org.tablewalk.utils.interfaces.SimpleItemSelectedListener;
+import org.tablewalk.utils.interfaces.SimpleSeekBarListener;
+import org.tablewalk.utils.interfaces.SimpleTextWatcher;
 
 import java.util.List;
 

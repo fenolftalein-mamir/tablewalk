@@ -1,6 +1,6 @@
-package net.kdt.pojavlaunch.fragments;
+package org.tablewalk.fragments;
 
-import net.kdt.pojavlaunch.extra.ExtraConstants;
+import org.tablewalk.extra.ExtraConstants;
 
 public class MicrosoftLoginFragment extends OAuthFragment {
     public static final String TAG = "MICROSOFT_LOGIN_FRAGMENT";

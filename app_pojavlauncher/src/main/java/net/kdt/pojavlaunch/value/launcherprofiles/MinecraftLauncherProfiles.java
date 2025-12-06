@@ -1,8 +1,8 @@
-package net.kdt.pojavlaunch.value.launcherprofiles;
+package org.tablewalk.value.launcherprofiles;
 import androidx.annotation.Keep;
 
 import java.util.*;
-import net.kdt.pojavlaunch.*;
+import org.tablewalk.*;
 
 @Keep
 public class MinecraftLauncherProfiles {

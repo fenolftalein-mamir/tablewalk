@@ -1,7 +1,7 @@
-package net.kdt.pojavlaunch.customcontrols.mouse;
+package org.tablewalk.customcontrols.mouse;
 
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.DEFAULT_PREF;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_MOUSE_GRAB_FORCE;
+import static org.tablewalk.prefs.LauncherPreferences.DEFAULT_PREF;
+import static org.tablewalk.prefs.LauncherPreferences.PREF_MOUSE_GRAB_FORCE;
 
 import android.content.SharedPreferences;
 import android.os.Build;
@@ -14,10 +14,10 @@ import android.view.ViewTreeObserver;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 
-import net.kdt.pojavlaunch.GrabListener;
-import net.kdt.pojavlaunch.MinecraftGLSurface;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
+import org.tablewalk.GrabListener;
+import org.tablewalk.MinecraftGLSurface;
+import org.tablewalk.Tools;
+import org.tablewalk.prefs.LauncherPreferences;
 
 import org.lwjgl.glfw.CallbackBridge;
 

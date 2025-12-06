@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch;
+package org.tablewalk;
 
 public class AWTInputBridge {
     public static final int EVENT_TYPE_CHAR = 1000;

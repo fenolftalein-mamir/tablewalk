@@ -1,9 +1,9 @@
-package net.kdt.pojavlaunch.authenticator;
+package org.tablewalk.authenticator;
 
 import com.google.gson.annotations.SerializedName;
 
-import net.kdt.pojavlaunch.authenticator.impl.ElyByBackgroundLogin;
-import net.kdt.pojavlaunch.authenticator.impl.MicrosoftBackgroundLogin;
+import org.tablewalk.authenticator.impl.ElyByBackgroundLogin;
+import org.tablewalk.authenticator.impl.MicrosoftBackgroundLogin;
 
 import org.tablewalk.R;
 

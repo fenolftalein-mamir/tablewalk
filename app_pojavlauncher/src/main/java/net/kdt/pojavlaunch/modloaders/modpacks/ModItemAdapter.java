@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.modloaders.modpacks;
+package org.tablewalk.modloaders.modpacks;
 
 import android.annotation.SuppressLint;
 import android.content.res.Resources;
@@ -20,18 +20,18 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.kdt.SimpleArrayAdapter;
 
-import net.kdt.pojavlaunch.PojavApplication;
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.modloaders.modpacks.api.ModpackApi;
-import net.kdt.pojavlaunch.modloaders.modpacks.imagecache.ImageReceiver;
-import net.kdt.pojavlaunch.modloaders.modpacks.imagecache.ModIconCache;
-import net.kdt.pojavlaunch.modloaders.modpacks.models.Constants;
-import net.kdt.pojavlaunch.modloaders.modpacks.models.ModDetail;
-import net.kdt.pojavlaunch.modloaders.modpacks.models.ModItem;
-import net.kdt.pojavlaunch.modloaders.modpacks.models.SearchFilters;
-import net.kdt.pojavlaunch.modloaders.modpacks.models.SearchResult;
-import net.kdt.pojavlaunch.progresskeeper.TaskCountListener;
+import org.tablewalk.PojavApplication;
+import org.tablewalk.R;
+import org.tablewalk.Tools;
+import org.tablewalk.modloaders.modpacks.api.ModpackApi;
+import org.tablewalk.modloaders.modpacks.imagecache.ImageReceiver;
+import org.tablewalk.modloaders.modpacks.imagecache.ModIconCache;
+import org.tablewalk.modloaders.modpacks.models.Constants;
+import org.tablewalk.modloaders.modpacks.models.ModDetail;
+import org.tablewalk.modloaders.modpacks.models.ModItem;
+import org.tablewalk.modloaders.modpacks.models.SearchFilters;
+import org.tablewalk.modloaders.modpacks.models.SearchResult;
+import org.tablewalk.progresskeeper.TaskCountListener;
 
 import java.util.Arrays;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.fragments;
+package org.tablewalk.fragments;
 
 import android.annotation.SuppressLint;
 import android.graphics.Bitmap;

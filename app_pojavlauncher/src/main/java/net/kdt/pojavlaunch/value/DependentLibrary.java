@@ -1,7 +1,7 @@
-package net.kdt.pojavlaunch.value;
+package org.tablewalk.value;
 
 import androidx.annotation.Keep;
-import net.kdt.pojavlaunch.JMinecraftVersionList.Arguments.ArgValue.ArgRules;
+import org.tablewalk.JMinecraftVersionList.Arguments.ArgValue.ArgRules;
 
 @Keep
 public class DependentLibrary {

@@ -1,8 +1,8 @@
-package net.kdt.pojavlaunch.tasks;
+package org.tablewalk.tasks;
 
 
-import static net.kdt.pojavlaunch.Architecture.archAsString;
-import static net.kdt.pojavlaunch.PojavApplication.sExecutorService;
+import static org.tablewalk.Architecture.archAsString;
+import static org.tablewalk.PojavApplication.sExecutorService;
 
 import android.content.Context;
 import android.content.res.AssetManager;
@@ -10,8 +10,8 @@ import android.util.Log;
 
 import com.kdt.mcgui.ProgressLayout;
 
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.multirt.MultiRTUtils;
+import org.tablewalk.Tools;
+import org.tablewalk.multirt.MultiRTUtils;
 
 import org.apache.commons.io.FileUtils;
 

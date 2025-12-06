@@ -1,6 +1,6 @@
-package net.kdt.pojavlaunch.modloaders;
+package org.tablewalk.modloaders;
 
-import net.kdt.pojavlaunch.utils.DownloadUtils;
+import org.tablewalk.utils.DownloadUtils;
 
 import org.htmlcleaner.HtmlCleaner;
 import org.htmlcleaner.TagNode;

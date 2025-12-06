@@ -1,9 +1,9 @@
-package net.kdt.pojavlaunch.customcontrols;
+package org.tablewalk.customcontrols;
 
 import com.google.gson.JsonSyntaxException;
 
-import net.kdt.pojavlaunch.LwjglGlfwKeycode;
-import net.kdt.pojavlaunch.Tools;
+import org.tablewalk.LwjglGlfwKeycode;
+import org.tablewalk.Tools;
 
 import org.json.JSONArray;
 import org.json.JSONException;

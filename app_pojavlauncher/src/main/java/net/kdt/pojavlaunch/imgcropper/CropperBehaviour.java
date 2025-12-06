@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.imgcropper;
+package org.tablewalk.imgcropper;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;

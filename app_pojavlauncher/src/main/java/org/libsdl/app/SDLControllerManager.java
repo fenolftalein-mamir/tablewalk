@@ -24,9 +24,9 @@ import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.View;
 
-import net.kdt.pojavlaunch.MinecraftGLSurface;
-import net.kdt.pojavlaunch.customcontrols.gamepad.direct.DirectGamepadEnableHandler;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
+import org.tablewalk.MinecraftGLSurface;
+import org.tablewalk.customcontrols.gamepad.direct.DirectGamepadEnableHandler;
+import org.tablewalk.prefs.LauncherPreferences;
 
 
 public class SDLControllerManager

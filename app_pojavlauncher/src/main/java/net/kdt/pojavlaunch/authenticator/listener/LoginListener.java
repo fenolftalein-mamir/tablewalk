@@ -1,6 +1,6 @@
-package net.kdt.pojavlaunch.authenticator.listener;
+package org.tablewalk.authenticator.listener;
 
-import net.kdt.pojavlaunch.authenticator.accounts.MinecraftAccount;
+import org.tablewalk.authenticator.accounts.MinecraftAccount;
 
 public interface LoginListener{
     void onLoginDone(MinecraftAccount account);

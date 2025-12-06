@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.utils.interfaces;
+package org.tablewalk.utils.interfaces;
 
 import android.text.Editable;
 import android.text.TextWatcher;

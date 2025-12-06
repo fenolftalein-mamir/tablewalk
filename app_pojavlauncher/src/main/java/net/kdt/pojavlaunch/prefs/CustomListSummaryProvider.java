@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.prefs;
+package org.tablewalk.prefs;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

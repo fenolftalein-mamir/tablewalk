@@ -1,7 +1,7 @@
-package net.kdt.pojavlaunch.fragments;
+package org.tablewalk.fragments;
 
-import static net.kdt.pojavlaunch.Tools.hasNoOnlineProfileDialog;
-import static net.kdt.pojavlaunch.Tools.hasOnlineProfile;
+import static org.tablewalk.Tools.hasNoOnlineProfileDialog;
+import static org.tablewalk.Tools.hasOnlineProfile;
 
 import android.os.Bundle;
 import android.view.View;
@@ -11,9 +11,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import net.kdt.pojavlaunch.PojavProfile;
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
+import org.tablewalk.PojavProfile;
+import org.tablewalk.R;
+import org.tablewalk.Tools;
 
 public class ProfileTypeSelectFragment extends Fragment {
     public static final String TAG = "ProfileTypeSelectFragment";

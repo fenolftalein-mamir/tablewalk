@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.services;
+package org.tablewalk.services;
 
 import android.app.Notification;
 import android.app.PendingIntent;
@@ -13,10 +13,10 @@ import android.os.Process;
 import androidx.annotation.Nullable;
 import androidx.core.app.NotificationCompat;
 
-import net.kdt.pojavlaunch.MainActivity;
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.utils.NotificationUtils;
+import org.tablewalk.MainActivity;
+import org.tablewalk.R;
+import org.tablewalk.Tools;
+import org.tablewalk.utils.NotificationUtils;
 
 import java.lang.ref.WeakReference;
 

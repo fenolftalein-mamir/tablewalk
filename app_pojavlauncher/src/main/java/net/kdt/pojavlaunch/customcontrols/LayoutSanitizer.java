@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.customcontrols;
+package org.tablewalk.customcontrols;
 
 import java.util.Iterator;
 import java.util.List;

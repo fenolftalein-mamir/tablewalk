@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.prefs.screens;
+package org.tablewalk.prefs.screens;
 
 import static android.text.InputType.TYPE_CLASS_NUMBER;
 
@@ -12,7 +12,7 @@ import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.SwitchPreference;
 
-import net.kdt.pojavlaunch.R;
+import org.tablewalk.R;
 
 import java.util.Objects;
 

@@ -1,6 +1,6 @@
-package net.kdt.pojavlaunch.authenticator.impl;
+package org.tablewalk.authenticator.impl;
 
-import static net.kdt.pojavlaunch.PojavApplication.sExecutorService;
+import static org.tablewalk.PojavApplication.sExecutorService;
 
 import android.util.ArrayMap;
 import android.util.Log;
@@ -9,14 +9,14 @@ import androidx.annotation.NonNull;
 
 import com.kdt.mcgui.ProgressLayout;
 
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.authenticator.AuthType;
-import net.kdt.pojavlaunch.authenticator.BackgroundLogin;
-import net.kdt.pojavlaunch.authenticator.accounts.PojavProfile;
-import net.kdt.pojavlaunch.authenticator.listener.LoginListener;
-import net.kdt.pojavlaunch.authenticator.model.OAuthTokenResponse;
-import net.kdt.pojavlaunch.authenticator.accounts.MinecraftAccount;
+import org.tablewalk.R;
+import org.tablewalk.Tools;
+import org.tablewalk.authenticator.AuthType;
+import org.tablewalk.authenticator.BackgroundLogin;
+import org.tablewalk.authenticator.accounts.PojavProfile;
+import org.tablewalk.authenticator.listener.LoginListener;
+import org.tablewalk.authenticator.model.OAuthTokenResponse;
+import org.tablewalk.authenticator.accounts.MinecraftAccount;
 
 import org.json.JSONArray;
 import org.json.JSONException;

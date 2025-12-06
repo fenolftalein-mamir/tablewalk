@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.modloaders.modpacks.imagecache;
+package org.tablewalk.modloaders.modpacks.imagecache;
 
 import android.graphics.Bitmap;
 

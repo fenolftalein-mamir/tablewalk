@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.imgcropper;
+package org.tablewalk.imgcropper;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -10,9 +10,9 @@ import android.graphics.RectF;
 import android.os.Handler;
 import android.os.Looper;
 
-import net.kdt.pojavlaunch.PojavApplication;
-import net.kdt.pojavlaunch.modloaders.modpacks.SelfReferencingFuture;
-import net.kdt.pojavlaunch.utils.MatrixUtils;
+import org.tablewalk.PojavApplication;
+import org.tablewalk.modloaders.modpacks.SelfReferencingFuture;
+import org.tablewalk.utils.MatrixUtils;
 
 import java.util.concurrent.Future;
 

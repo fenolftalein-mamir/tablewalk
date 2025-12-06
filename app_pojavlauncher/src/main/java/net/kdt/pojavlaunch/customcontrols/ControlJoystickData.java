@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.customcontrols;
+package org.tablewalk.customcontrols;
 
 public class ControlJoystickData extends ControlData {
 

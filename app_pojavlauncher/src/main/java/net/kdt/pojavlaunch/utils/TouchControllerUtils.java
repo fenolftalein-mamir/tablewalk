@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.utils;
+package org.tablewalk.utils;
 
 import android.content.Context;
 import android.os.Vibrator;
@@ -18,7 +18,7 @@ import android.view.View;
 import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
 
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
+import org.tablewalk.prefs.LauncherPreferences;
 
 public class TouchControllerUtils {
     private TouchControllerUtils() {

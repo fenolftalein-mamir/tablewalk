@@ -1,7 +1,7 @@
-package net.kdt.pojavlaunch.fragments;
+package org.tablewalk.fragments;
 
-import net.kdt.pojavlaunch.modloaders.FabriclikeUtils;
-import net.kdt.pojavlaunch.modloaders.ModloaderListenerProxy;
+import org.tablewalk.modloaders.FabriclikeUtils;
+import org.tablewalk.modloaders.ModloaderListenerProxy;
 
 public class QuiltInstallFragment extends FabriclikeInstallFragment {
 

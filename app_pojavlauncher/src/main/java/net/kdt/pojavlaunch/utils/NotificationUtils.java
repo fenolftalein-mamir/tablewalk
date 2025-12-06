@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.utils;
+package org.tablewalk.utils;
 
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -8,7 +8,7 @@ import android.os.Build;
 
 import androidx.core.app.NotificationCompat;
 
-import net.kdt.pojavlaunch.R;
+import org.tablewalk.R;
 
 public class NotificationUtils {
 

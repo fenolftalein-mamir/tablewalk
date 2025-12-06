@@ -1,9 +1,9 @@
-package net.kdt.pojavlaunch.authenticator;
+package org.tablewalk.authenticator;
 
 import androidx.annotation.NonNull;
 
-import net.kdt.pojavlaunch.authenticator.listener.LoginListener;
-import net.kdt.pojavlaunch.authenticator.accounts.MinecraftAccount;
+import org.tablewalk.authenticator.listener.LoginListener;
+import org.tablewalk.authenticator.accounts.MinecraftAccount;
 
 public interface BackgroundLogin {
     void createAccount(@NonNull LoginListener loginListener, String code);

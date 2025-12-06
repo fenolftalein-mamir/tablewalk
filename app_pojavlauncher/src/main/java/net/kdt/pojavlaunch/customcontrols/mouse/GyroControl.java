@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.customcontrols.mouse;
+package org.tablewalk.customcontrols.mouse;
 
 import android.app.Activity;
 import android.content.Context;
@@ -10,8 +10,8 @@ import android.view.OrientationEventListener;
 import android.view.Surface;
 import android.view.WindowManager;
 
-import net.kdt.pojavlaunch.GrabListener;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
+import org.tablewalk.GrabListener;
+import org.tablewalk.prefs.LauncherPreferences;
 
 import org.lwjgl.glfw.CallbackBridge;
 

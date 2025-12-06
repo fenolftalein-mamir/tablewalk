@@ -1,12 +1,12 @@
-package net.kdt.pojavlaunch.fragments;
+package org.tablewalk.fragments;
 
 import android.app.Activity;
 import android.content.Context;
 import android.net.Uri;
 import android.widget.Toast;
 
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.extra.ExtraCore;
+import org.tablewalk.Tools;
+import org.tablewalk.extra.ExtraCore;
 
 import org.tablewalk.R;
 

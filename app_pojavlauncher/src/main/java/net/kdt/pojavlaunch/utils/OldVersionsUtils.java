@@ -1,11 +1,11 @@
-package net.kdt.pojavlaunch.utils;
+package org.tablewalk.utils;
 
 import android.util.Log;
 
-import net.kdt.pojavlaunch.JMinecraftVersionList;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.extra.ExtraConstants;
-import net.kdt.pojavlaunch.extra.ExtraCore;
+import org.tablewalk.JMinecraftVersionList;
+import org.tablewalk.Tools;
+import org.tablewalk.extra.ExtraConstants;
+import org.tablewalk.extra.ExtraCore;
 
 import java.text.ParseException;
 import java.util.Date;

@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.authenticator.impl;
+package org.tablewalk.authenticator.impl;
 
 import android.content.Context;
 

@@ -1,16 +1,16 @@
-package net.kdt.pojavlaunch.fragments;
+package org.tablewalk.fragments;
 
 import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
 import android.widget.ExpandableListAdapter;
 
-import net.kdt.pojavlaunch.JavaGUILauncherActivity;
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.modloaders.ModloaderListenerProxy;
-import net.kdt.pojavlaunch.modloaders.OptiFineDownloadTask;
-import net.kdt.pojavlaunch.modloaders.OptiFineUtils;
-import net.kdt.pojavlaunch.modloaders.OptiFineVersionListAdapter;
+import org.tablewalk.JavaGUILauncherActivity;
+import org.tablewalk.R;
+import org.tablewalk.modloaders.ModloaderListenerProxy;
+import org.tablewalk.modloaders.OptiFineDownloadTask;
+import org.tablewalk.modloaders.OptiFineUtils;
+import org.tablewalk.modloaders.OptiFineVersionListAdapter;
 
 import java.io.File;
 import java.io.IOException;

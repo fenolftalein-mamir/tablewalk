@@ -1,12 +1,12 @@
-package net.kdt.pojavlaunch.mirrors;
+package org.tablewalk.mirrors;
 
 import android.util.Log;
 
 import androidx.annotation.Nullable;
 
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
-import net.kdt.pojavlaunch.utils.DownloadUtils;
+import org.tablewalk.Tools;
+import org.tablewalk.prefs.LauncherPreferences;
+import org.tablewalk.utils.DownloadUtils;
 
 import java.io.File;
 import java.io.FileNotFoundException;

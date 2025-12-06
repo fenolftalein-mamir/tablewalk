@@ -1,6 +1,6 @@
-package net.kdt.pojavlaunch.fragments;
+package org.tablewalk.fragments;
 
-import net.kdt.pojavlaunch.extra.ExtraConstants;
+import org.tablewalk.extra.ExtraConstants;
 
 public class ElyByLoginFragment extends OAuthFragment {
     public static final String TAG = "ELYBY_LOGIN_FRAGMENT";

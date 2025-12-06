@@ -1,7 +1,7 @@
-package net.kdt.pojavlaunch;
+package org.tablewalk;
 
 import static android.content.res.Configuration.ORIENTATION_PORTRAIT;
-import static net.kdt.pojavlaunch.Tools.hasNoOnlineProfileDialog;
+import static org.tablewalk.Tools.hasNoOnlineProfileDialog;
 
 import android.Manifest;
 import android.app.NotificationManager;
@@ -25,30 +25,30 @@ import androidx.fragment.app.FragmentManager;
 
 import com.kdt.mcgui.ProgressLayout;
 
-import net.kdt.pojavlaunch.authenticator.accounts.PojavProfile;
-import net.kdt.pojavlaunch.contracts.OpenDocumentWithExtension;
-import net.kdt.pojavlaunch.extra.ExtraConstants;
-import net.kdt.pojavlaunch.extra.ExtraCore;
-import net.kdt.pojavlaunch.extra.ExtraListener;
-import net.kdt.pojavlaunch.fragments.MainMenuFragment;
-import net.kdt.pojavlaunch.fragments.MicrosoftLoginFragment;
-import net.kdt.pojavlaunch.fragments.SelectAuthFragment;
-import net.kdt.pojavlaunch.lifecycle.ContextAwareDoneListener;
-import net.kdt.pojavlaunch.lifecycle.ContextExecutor;
-import net.kdt.pojavlaunch.modloaders.modpacks.ModloaderInstallTracker;
-import net.kdt.pojavlaunch.modloaders.modpacks.imagecache.IconCacheJanitor;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
-import net.kdt.pojavlaunch.prefs.screens.LauncherPreferenceFragment;
-import net.kdt.pojavlaunch.progresskeeper.ProgressKeeper;
-import net.kdt.pojavlaunch.progresskeeper.TaskCountListener;
-import net.kdt.pojavlaunch.services.ProgressServiceKeeper;
-import net.kdt.pojavlaunch.tasks.AsyncMinecraftDownloader;
-import net.kdt.pojavlaunch.tasks.AsyncVersionList;
-import net.kdt.pojavlaunch.tasks.MinecraftDownloader;
-import net.kdt.pojavlaunch.utils.DateUtils;
-import net.kdt.pojavlaunch.utils.NotificationUtils;
-import net.kdt.pojavlaunch.value.launcherprofiles.LauncherProfiles;
-import net.kdt.pojavlaunch.value.launcherprofiles.MinecraftProfile;
+import org.tablewalk.authenticator.accounts.PojavProfile;
+import org.tablewalk.contracts.OpenDocumentWithExtension;
+import org.tablewalk.extra.ExtraConstants;
+import org.tablewalk.extra.ExtraCore;
+import org.tablewalk.extra.ExtraListener;
+import org.tablewalk.fragments.MainMenuFragment;
+import org.tablewalk.fragments.MicrosoftLoginFragment;
+import org.tablewalk.fragments.SelectAuthFragment;
+import org.tablewalk.lifecycle.ContextAwareDoneListener;
+import org.tablewalk.lifecycle.ContextExecutor;
+import org.tablewalk.modloaders.modpacks.ModloaderInstallTracker;
+import org.tablewalk.modloaders.modpacks.imagecache.IconCacheJanitor;
+import org.tablewalk.prefs.LauncherPreferences;
+import org.tablewalk.prefs.screens.LauncherPreferenceFragment;
+import org.tablewalk.progresskeeper.ProgressKeeper;
+import org.tablewalk.progresskeeper.TaskCountListener;
+import org.tablewalk.services.ProgressServiceKeeper;
+import org.tablewalk.tasks.AsyncMinecraftDownloader;
+import org.tablewalk.tasks.AsyncVersionList;
+import org.tablewalk.tasks.MinecraftDownloader;
+import org.tablewalk.utils.DateUtils;
+import org.tablewalk.utils.NotificationUtils;
+import org.tablewalk.value.launcherprofiles.LauncherProfiles;
+import org.tablewalk.value.launcherprofiles.MinecraftProfile;
 
 import java.lang.ref.WeakReference;
 import java.text.ParseException;

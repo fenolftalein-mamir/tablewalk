@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.authenticator.accounts;
+package org.tablewalk.authenticator.accounts;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;

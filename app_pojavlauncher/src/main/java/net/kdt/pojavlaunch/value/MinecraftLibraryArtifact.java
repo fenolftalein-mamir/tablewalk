@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.value;
+package org.tablewalk.value;
 
 import androidx.annotation.Keep;
 

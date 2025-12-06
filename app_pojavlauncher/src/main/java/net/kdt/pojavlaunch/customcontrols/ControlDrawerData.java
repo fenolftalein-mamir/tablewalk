@@ -1,14 +1,14 @@
-package net.kdt.pojavlaunch.customcontrols;
+package org.tablewalk.customcontrols;
 
-import net.kdt.pojavlaunch.Tools;
+import org.tablewalk.Tools;
 
 import java.util.ArrayList;
 
-import static net.kdt.pojavlaunch.customcontrols.ControlDrawerData.Orientation.DOWN;
-import static net.kdt.pojavlaunch.customcontrols.ControlDrawerData.Orientation.LEFT;
-import static net.kdt.pojavlaunch.customcontrols.ControlDrawerData.Orientation.RIGHT;
-import static net.kdt.pojavlaunch.customcontrols.ControlDrawerData.Orientation.UP;
-import static net.kdt.pojavlaunch.customcontrols.ControlDrawerData.Orientation.FREE;
+import static org.tablewalk.customcontrols.ControlDrawerData.Orientation.DOWN;
+import static org.tablewalk.customcontrols.ControlDrawerData.Orientation.LEFT;
+import static org.tablewalk.customcontrols.ControlDrawerData.Orientation.RIGHT;
+import static org.tablewalk.customcontrols.ControlDrawerData.Orientation.UP;
+import static org.tablewalk.customcontrols.ControlDrawerData.Orientation.FREE;
 
 @androidx.annotation.Keep
 public class ControlDrawerData {

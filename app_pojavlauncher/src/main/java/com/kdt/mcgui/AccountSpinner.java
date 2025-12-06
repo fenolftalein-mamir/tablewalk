@@ -24,17 +24,17 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.widget.AppCompatSpinner;
 import androidx.core.content.res.ResourcesCompat;
 
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.authenticator.AuthType;
-import net.kdt.pojavlaunch.authenticator.BackgroundLogin;
-import net.kdt.pojavlaunch.authenticator.accounts.MinecraftAccount;
-import net.kdt.pojavlaunch.authenticator.accounts.PojavProfile;
-import net.kdt.pojavlaunch.authenticator.impl.PresentedException;
-import net.kdt.pojavlaunch.authenticator.listener.LoginListener;
-import net.kdt.pojavlaunch.extra.ExtraConstants;
-import net.kdt.pojavlaunch.extra.ExtraCore;
-import net.kdt.pojavlaunch.extra.ExtraListener;
-import net.kdt.pojavlaunch.progresskeeper.ProgressKeeper;
+import org.tablewalk.Tools;
+import org.tablewalk.authenticator.AuthType;
+import org.tablewalk.authenticator.BackgroundLogin;
+import org.tablewalk.authenticator.accounts.MinecraftAccount;
+import org.tablewalk.authenticator.accounts.PojavProfile;
+import org.tablewalk.authenticator.impl.PresentedException;
+import org.tablewalk.authenticator.listener.LoginListener;
+import org.tablewalk.extra.ExtraConstants;
+import org.tablewalk.extra.ExtraCore;
+import org.tablewalk.extra.ExtraListener;
+import org.tablewalk.progresskeeper.ProgressKeeper;
 
 import java.io.IOException;
 import java.util.HashMap;

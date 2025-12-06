@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch;
+package org.tablewalk;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -10,12 +10,12 @@ import android.widget.ListView;
 
 import androidx.drawerlayout.widget.DrawerLayout;
 
-import net.kdt.pojavlaunch.customcontrols.ControlData;
-import net.kdt.pojavlaunch.customcontrols.ControlDrawerData;
-import net.kdt.pojavlaunch.customcontrols.ControlJoystickData;
-import net.kdt.pojavlaunch.customcontrols.ControlLayout;
-import net.kdt.pojavlaunch.customcontrols.EditorExitable;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
+import org.tablewalk.customcontrols.ControlData;
+import org.tablewalk.customcontrols.ControlDrawerData;
+import org.tablewalk.customcontrols.ControlJoystickData;
+import org.tablewalk.customcontrols.ControlLayout;
+import org.tablewalk.customcontrols.EditorExitable;
+import org.tablewalk.prefs.LauncherPreferences;
 
 import java.io.IOException;
 

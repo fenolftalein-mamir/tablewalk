@@ -1,11 +1,11 @@
-package net.kdt.pojavlaunch.authenticator.accounts;
+package org.tablewalk.authenticator.accounts;
 
 import android.util.Log;
 
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.authenticator.AuthType;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
-import net.kdt.pojavlaunch.utils.JSONUtils;
+import org.tablewalk.Tools;
+import org.tablewalk.authenticator.AuthType;
+import org.tablewalk.prefs.LauncherPreferences;
+import org.tablewalk.utils.JSONUtils;
 
 import java.io.File;
 import java.io.IOException;

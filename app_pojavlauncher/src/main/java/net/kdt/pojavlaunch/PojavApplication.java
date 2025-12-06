@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch;
+package org.tablewalk;
 
 import static android.content.Intent.FLAG_ACTIVITY_NEW_TASK;
 
@@ -18,11 +18,11 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
-import net.kdt.pojavlaunch.lifecycle.ContextExecutor;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
-import net.kdt.pojavlaunch.tasks.AsyncAssetManager;
-import net.kdt.pojavlaunch.utils.*;
-import net.kdt.pojavlaunch.utils.FileUtils;
+import org.tablewalk.lifecycle.ContextExecutor;
+import org.tablewalk.prefs.LauncherPreferences;
+import org.tablewalk.tasks.AsyncAssetManager;
+import org.tablewalk.utils.*;
+import org.tablewalk.utils.FileUtils;
 
 public class PojavApplication extends Application {
 	public static final String CRASH_REPORT_TAG = "PojavCrashReport";
