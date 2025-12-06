@@ -1,13 +1,13 @@
-package net.kdt.pojavlaunch.authenticator.accounts;
+package org.tablewalk.authenticator.accounts;
 
 
 import android.graphics.BitmapFactory;
 import android.util.Log;
 
-import net.kdt.pojavlaunch.*;
-import net.kdt.pojavlaunch.authenticator.AuthType;
-import net.kdt.pojavlaunch.utils.FileUtils;
-import net.kdt.pojavlaunch.utils.JSONUtils;
+import org.tablewalk.*;
+import org.tablewalk.authenticator.AuthType;
+import org.tablewalk.utils.FileUtils;
+import org.tablewalk.utils.JSONUtils;
 
 import java.io.*;
 import java.net.URL;
