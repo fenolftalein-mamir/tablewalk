@@ -59,6 +59,7 @@ import org.tablewalk.customcontrols.mouse.GyroControl;
 import org.tablewalk.customcontrols.mouse.HotbarView;
 import org.tablewalk.customcontrols.mouse.Touchpad;
 import org.tablewalk.lifecycle.ContextExecutor;
+import net.kdt.pojavlaunch.value.launcherprofiles.MinecraftProfile;
 import org.tablewalk.prefs.LauncherPreferences;
 import org.tablewalk.prefs.QuickSettingSideDialog;
 import org.tablewalk.services.GameService;

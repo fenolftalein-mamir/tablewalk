@@ -664,8 +664,6 @@ public final class Tools {
                 fromStringArray(minecraftArgs.toArray(new String[0])):
                 versionInfo.minecraftArguments;
 
-        if(profile.isDemo()) mcArguments += " --demo";
-
         return JSONUtils.insertJSONValueList(splitAndFilterEmpty(mcArguments), varArgMap);
     }
 
@@ -1602,17 +1600,17 @@ public final class Tools {
     }
 
     public static boolean isDemoProfile(Context ctx){
-        MinecraftAccount currentProfile = PojavProfile.getCurrentProfileContent(ctx, null);
-        return currentProfile != null && currentProfile.isDemo();
+        MinecraftAccount currentProfile = PojavProfile.getCurrentProfileContent(false);
+        return currentProfile != null;
     }
 
     public static boolean isLocalProfile(Context ctx){
-        MinecraftAccount currentProfile = PojavProfile.getCurrentProfileContent(ctx, null);
+        MinecraftAccount currentProfile = PojavProfile.getCurrentProfileContent(false);
         return currentProfile == null || currentProfile.isLocal();
     }
     public static boolean hasOnlineProfile(){
-        for (MinecraftAccount accountToCheck : getAllProfiles()) {
-            if (!accountToCheck.isLocal() && !accountToCheck.isDemo()) {
+        for (MinecraftAccount accountToCheck : PojavProfile.getAllProfiles()) {
+            if (!accountToCheck.isLocal()) {
                 return true;
             }
         }

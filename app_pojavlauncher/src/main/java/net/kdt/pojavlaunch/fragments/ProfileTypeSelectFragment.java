@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import org.tablewalk.PojavProfile;
+import net.kdt.pojavlaunch.authenticator.accounts.PojavProfile;
 import org.tablewalk.R;
 import org.tablewalk.Tools;
 

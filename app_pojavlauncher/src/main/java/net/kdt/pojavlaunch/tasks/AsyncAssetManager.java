@@ -14,11 +14,13 @@ import org.tablewalk.Tools;
 import org.tablewalk.multirt.MultiRTUtils;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.IOUtils;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
 
 public class AsyncAssetManager {
 
@@ -94,6 +96,30 @@ public class AsyncAssetManager {
             }
             ProgressLayout.clearProgress(ProgressLayout.EXTRACT_COMPONENTS);
         });
+    }
+
+    private static String readInstalledComponentVersion(File componentRoot) {
+        File localVersionFile = new File(componentRoot, "version");
+        try(FileInputStream fileInputStream = new FileInputStream(localVersionFile)) {
+            return IOUtils.toString(fileInputStream, StandardCharsets.UTF_8);
+        }catch (IOException ignored) {}
+        return null;
+    }
+
+    private static String readBuiltinComponentVersion(AssetManager assetManager, String componentName) {
+        String componentVersionLocation = "components/"+componentName+"/version";
+        try (InputStream inputStream = assetManager.open(componentVersionLocation)) {
+            return IOUtils.toString(inputStream, StandardCharsets.UTF_8);
+        }catch (IOException ignored) {}
+        return null;
+    }
+
+    private static void tryUnpackComponent(Context ctx, String component, boolean privateDirectory) {
+        try {
+            unpackComponent(ctx, component, privateDirectory);
+        }catch (IOException e) {
+            Log.e("AssetUnpacker", "Failed to unpack component "+component, e);
+        }
     }
 
     private static void unpackComponent(Context ctx, String component, boolean privateDirectory) throws IOException {

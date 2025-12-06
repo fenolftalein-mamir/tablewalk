@@ -1,13 +1,13 @@
-package org.tablewalk.authenticator.accounts;
+package net.kdt.pojavlaunch.authenticator.accounts;
 
 
 import android.graphics.BitmapFactory;
 import android.util.Log;
 
-import org.tablewalk.*;
-import org.tablewalk.authenticator.AuthType;
-import org.tablewalk.utils.FileUtils;
-import org.tablewalk.utils.JSONUtils;
+import net.kdt.pojavlaunch.*;
+import net.kdt.pojavlaunch.authenticator.AuthType;
+import net.kdt.pojavlaunch.utils.FileUtils;
+import net.kdt.pojavlaunch.utils.JSONUtils;
 
 import java.io.*;
 import java.net.URL;
@@ -15,6 +15,8 @@ import java.net.URL;
 import android.graphics.Bitmap;
 
 import androidx.annotation.Keep;
+
+import com.google.gson.JsonParseException;
 
 import org.apache.commons.io.IOUtils;
 
@@ -66,6 +68,16 @@ public class MinecraftAccount {
         FileUtils.ensureParentDirectory(mSaveLocation);
         JSONUtils.writeToFile(mSaveLocation, this);
     }
+
+    public MinecraftAccount reload() {
+        try {
+            MinecraftAccount minecraftAccount = JSONUtils.readFromFile(mSaveLocation, MinecraftAccount.class);
+            minecraftAccount.mSaveLocation = mSaveLocation;
+            return minecraftAccount;
+        }catch (IOException | JsonParseException e) {
+            return null;
+        }
+     }
 
     public Bitmap getSkinFace(){
         if(isLocal()) return null;
