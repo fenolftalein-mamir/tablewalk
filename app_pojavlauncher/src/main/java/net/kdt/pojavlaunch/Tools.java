@@ -76,6 +76,7 @@ import net.kdt.pojavlaunch.authenticator.accounts.MinecraftAccount;
 import net.kdt.pojavlaunch.value.MinecraftLibraryArtifact;
 import net.kdt.pojavlaunch.value.launcherprofiles.LauncherProfiles;
 import net.kdt.pojavlaunch.value.launcherprofiles.MinecraftProfile;
+import net.kdt.pojavlaunch.authenticator.accounts.PojavProfile;
 
 import org.apache.commons.codec.binary.Hex;
 import org.apache.commons.io.IOUtils;
