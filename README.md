@@ -2,7 +2,7 @@
 
 <img src="https://github.com/fenolftalein-mamir/tablewalk/blob/v3_openjdk/app_pojavlauncher/src/main/assets/tablewalk.png" align="left" width="130" height="130" alt="tablewalk logo">
 
-[![Android CI](https://github.com/fenolftalein/tablewalk/workflows/Android%20CI/badge.svg)](https://github.com/fenolftalein-mamir/tablewalk/actions)
+[![Android CI](https://github.com/fenolftalein-mamir/tablewalk/actions/workflows/android.yml/badge.svg)](https://github.com/fenolftalein-mamir/tablewalk/actions)
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/fenolftalein-mamir/tablewalk)](https://github.com/fenolftalein-mamir/tablewalk/actions)
 
 
