@@ -1,9 +1,9 @@
-package net.kdt.pojavlaunch.fragments;
+package org.tablewalk.fragments;
 
-import static net.kdt.pojavlaunch.Tools.hasNoOnlineProfileDialog;
-import static net.kdt.pojavlaunch.Tools.hasOnlineProfile;
-import static net.kdt.pojavlaunch.Tools.openPath;
-import static net.kdt.pojavlaunch.Tools.shareLog;
+import static org.tablewalk.Tools.hasNoOnlineProfileDialog;
+import static org.tablewalk.Tools.hasOnlineProfile;
+import static org.tablewalk.Tools.openPath;
+import static org.tablewalk.Tools.shareLog;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -18,15 +18,15 @@ import androidx.fragment.app.Fragment;
 
 import com.kdt.mcgui.mcVersionSpinner;
 
-import net.kdt.pojavlaunch.CustomControlsActivity;
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.extra.ExtraConstants;
-import net.kdt.pojavlaunch.extra.ExtraCore;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
-import net.kdt.pojavlaunch.progresskeeper.ProgressKeeper;
-import net.kdt.pojavlaunch.value.launcherprofiles.LauncherProfiles;
-import net.kdt.pojavlaunch.value.launcherprofiles.MinecraftProfile;
+import org.tablewalk.CustomControlsActivity;
+import org.tablewalk.R;
+import org.tablewalk.Tools;
+import org.tablewalk.extra.ExtraConstants;
+import org.tablewalk.extra.ExtraCore;
+import org.tablewalk.prefs.LauncherPreferences;
+import org.tablewalk.progresskeeper.ProgressKeeper;
+import org.tablewalk.value.launcherprofiles.LauncherProfiles;
+import org.tablewalk.value.launcherprofiles.MinecraftProfile;
 
 import java.io.File;
 

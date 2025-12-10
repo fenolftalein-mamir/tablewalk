@@ -1,7 +1,7 @@
-package net.kdt.pojavlaunch.customcontrols;
+package org.tablewalk.customcontrols;
 
 import static android.content.Context.INPUT_METHOD_SERVICE;
-import static net.kdt.pojavlaunch.Tools.currentDisplayMetrics;
+import static org.tablewalk.Tools.currentDisplayMetrics;
 
 import static org.lwjgl.glfw.CallbackBridge.isGrabbing;
 
@@ -23,18 +23,18 @@ import com.google.gson.JsonSyntaxException;
 import com.kdt.pickafile.FileListView;
 import com.kdt.pickafile.FileSelectedListener;
 
-import net.kdt.pojavlaunch.MinecraftGLSurface;
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlButton;
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlDrawer;
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlInterface;
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlJoystick;
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlSubButton;
-import net.kdt.pojavlaunch.customcontrols.handleview.ActionRow;
-import net.kdt.pojavlaunch.customcontrols.handleview.ControlHandleView;
-import net.kdt.pojavlaunch.customcontrols.handleview.EditControlSideDialog;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
+import org.tablewalk.MinecraftGLSurface;
+import org.tablewalk.R;
+import org.tablewalk.Tools;
+import org.tablewalk.customcontrols.buttons.ControlButton;
+import org.tablewalk.customcontrols.buttons.ControlDrawer;
+import org.tablewalk.customcontrols.buttons.ControlInterface;
+import org.tablewalk.customcontrols.buttons.ControlJoystick;
+import org.tablewalk.customcontrols.buttons.ControlSubButton;
+import org.tablewalk.customcontrols.handleview.ActionRow;
+import org.tablewalk.customcontrols.handleview.ControlHandleView;
+import org.tablewalk.customcontrols.handleview.EditControlSideDialog;
+import org.tablewalk.prefs.LauncherPreferences;
 
 import java.io.File;
 import java.io.IOException;

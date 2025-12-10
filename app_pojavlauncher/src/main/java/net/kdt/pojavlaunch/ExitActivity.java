@@ -1,6 +1,6 @@
-package net.kdt.pojavlaunch;
+package org.tablewalk;
 
-import static net.kdt.pojavlaunch.Tools.shareLog;
+import static org.tablewalk.Tools.shareLog;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

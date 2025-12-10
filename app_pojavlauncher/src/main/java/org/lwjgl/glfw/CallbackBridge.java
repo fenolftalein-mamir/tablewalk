@@ -1,7 +1,7 @@
 package org.lwjgl.glfw;
 
-import net.kdt.pojavlaunch.*;
-import net.kdt.pojavlaunch.customcontrols.gamepad.direct.DirectGamepadEnableHandler;
+import org.tablewalk.*;
+import org.tablewalk.customcontrols.gamepad.direct.DirectGamepadEnableHandler;
 
 import android.content.*;
 import android.util.Log;
@@ -82,7 +82,7 @@ public class CallbackBridge {
     public static void sendChar(char keychar, int modifiers){
         // Only an EditText goes through here, that means emojis are allowed, so no isISOControl
         // cause we might break emoji mods then.
-        // See net/kdt/pojavlaunch/customcontrols/keyboard/TouchCharInput.java#L147 (onTextChanged)
+        // See org.tablewalk/customcontrols/keyboard/TouchCharInput.java#L147 (onTextChanged)
         nativeSendCharMods(keychar,modifiers);
         nativeSendChar(keychar);
     }

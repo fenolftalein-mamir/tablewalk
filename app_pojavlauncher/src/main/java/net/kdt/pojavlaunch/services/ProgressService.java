@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.services;
+package org.tablewalk.services;
 
 import android.annotation.SuppressLint;
 import android.app.Notification;
@@ -17,11 +17,11 @@ import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 import androidx.core.content.ContextCompat;
 
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.progresskeeper.ProgressKeeper;
-import net.kdt.pojavlaunch.progresskeeper.TaskCountListener;
-import net.kdt.pojavlaunch.utils.NotificationUtils;
+import org.tablewalk.R;
+import org.tablewalk.Tools;
+import org.tablewalk.progresskeeper.ProgressKeeper;
+import org.tablewalk.progresskeeper.TaskCountListener;
+import org.tablewalk.utils.NotificationUtils;
 
 /**
  * Lazy service which allows the process not to get killed.

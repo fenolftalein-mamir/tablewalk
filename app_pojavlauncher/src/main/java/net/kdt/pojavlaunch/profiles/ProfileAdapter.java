@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.profiles;
+package org.tablewalk.profiles;
 
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
@@ -9,11 +9,11 @@ import android.widget.BaseAdapter;
 
 import androidx.core.graphics.ColorUtils;
 
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
-import net.kdt.pojavlaunch.value.launcherprofiles.LauncherProfiles;
-import net.kdt.pojavlaunch.value.launcherprofiles.MinecraftProfile;
+import org.tablewalk.R;
+import org.tablewalk.Tools;
+import org.tablewalk.prefs.LauncherPreferences;
+import org.tablewalk.value.launcherprofiles.LauncherProfiles;
+import org.tablewalk.value.launcherprofiles.MinecraftProfile;
 
 import java.util.ArrayList;
 import java.util.Arrays;

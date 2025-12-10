@@ -1,16 +1,16 @@
-package net.kdt.pojavlaunch.modloaders;
+package org.tablewalk.modloaders;
 
 import android.app.Activity;
 
 import com.kdt.mcgui.ProgressLayout;
 
-import net.kdt.pojavlaunch.JMinecraftVersionList;
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.progresskeeper.ProgressKeeper;
-import net.kdt.pojavlaunch.tasks.AsyncMinecraftDownloader;
-import net.kdt.pojavlaunch.tasks.MinecraftDownloader;
-import net.kdt.pojavlaunch.utils.DownloadUtils;
+import org.tablewalk.JMinecraftVersionList;
+import org.tablewalk.R;
+import org.tablewalk.Tools;
+import org.tablewalk.progresskeeper.ProgressKeeper;
+import org.tablewalk.tasks.AsyncMinecraftDownloader;
+import org.tablewalk.tasks.MinecraftDownloader;
+import org.tablewalk.utils.DownloadUtils;
 
 import java.io.File;
 import java.io.IOException;

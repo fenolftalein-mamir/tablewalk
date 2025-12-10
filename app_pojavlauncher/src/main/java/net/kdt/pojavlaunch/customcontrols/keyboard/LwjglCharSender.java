@@ -1,8 +1,8 @@
-package net.kdt.pojavlaunch.customcontrols.keyboard;
+package org.tablewalk.customcontrols.keyboard;
 
 import static org.lwjgl.glfw.CallbackBridge.sendKeyPress;
 
-import net.kdt.pojavlaunch.LwjglGlfwKeycode;
+import org.tablewalk.LwjglGlfwKeycode;
 
 import org.lwjgl.glfw.CallbackBridge;
 

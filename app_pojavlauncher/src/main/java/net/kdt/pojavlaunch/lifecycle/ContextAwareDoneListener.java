@@ -1,19 +1,19 @@
-package net.kdt.pojavlaunch.lifecycle;
+package org.tablewalk.lifecycle;
 
-import static net.kdt.pojavlaunch.MainActivity.INTENT_MINECRAFT_VERSION;
+import static org.tablewalk.MainActivity.INTENT_MINECRAFT_VERSION;
 
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 
-import net.kdt.pojavlaunch.MainActivity;
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.lifecycle.ContextExecutor;
-import net.kdt.pojavlaunch.lifecycle.ContextExecutorTask;
-import net.kdt.pojavlaunch.progresskeeper.ProgressKeeper;
-import net.kdt.pojavlaunch.tasks.AsyncMinecraftDownloader;
-import net.kdt.pojavlaunch.utils.NotificationUtils;
+import org.tablewalk.MainActivity;
+import org.tablewalk.R;
+import org.tablewalk.Tools;
+import org.tablewalk.lifecycle.ContextExecutor;
+import org.tablewalk.lifecycle.ContextExecutorTask;
+import org.tablewalk.progresskeeper.ProgressKeeper;
+import org.tablewalk.tasks.AsyncMinecraftDownloader;
+import org.tablewalk.utils.NotificationUtils;
 
 public class ContextAwareDoneListener implements AsyncMinecraftDownloader.DoneListener, ContextExecutorTask {
     private final String mErrorString;

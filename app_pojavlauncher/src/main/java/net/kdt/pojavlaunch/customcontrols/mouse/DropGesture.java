@@ -1,11 +1,11 @@
-package net.kdt.pojavlaunch.customcontrols.mouse;
+package org.tablewalk.customcontrols.mouse;
 
 import static org.lwjgl.glfw.CallbackBridge.sendKeyPress;
 
 import android.os.Handler;
 
-import net.kdt.pojavlaunch.LwjglGlfwKeycode;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
+import org.tablewalk.LwjglGlfwKeycode;
+import org.tablewalk.prefs.LauncherPreferences;
 
 public class DropGesture implements Runnable{
     private final Handler mHandler;

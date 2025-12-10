@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.progresskeeper;
+package org.tablewalk.progresskeeper;
 
 import java.util.ArrayList;
 import java.util.HashMap;

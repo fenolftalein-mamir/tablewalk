@@ -1,9 +1,9 @@
-package net.kdt.pojavlaunch.modloaders.modpacks.imagecache;
+package org.tablewalk.modloaders.modpacks.imagecache;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 
-import net.kdt.pojavlaunch.utils.DownloadUtils;
+import org.tablewalk.utils.DownloadUtils;
 
 import java.io.FileOutputStream;
 import java.io.IOException;

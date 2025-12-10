@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.fragments;
+package org.tablewalk.fragments;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -18,17 +18,17 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import net.kdt.pojavlaunch.PojavApplication;
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.extra.ExtraCore;
-import net.kdt.pojavlaunch.modloaders.FabriclikeDownloadTask;
-import net.kdt.pojavlaunch.modloaders.FabriclikeUtils;
-import net.kdt.pojavlaunch.modloaders.FabricVersion;
-import net.kdt.pojavlaunch.modloaders.ModloaderDownloadListener;
-import net.kdt.pojavlaunch.modloaders.ModloaderListenerProxy;
-import net.kdt.pojavlaunch.modloaders.modpacks.SelfReferencingFuture;
-import net.kdt.pojavlaunch.progresskeeper.ProgressKeeper;
+import org.tablewalk.PojavApplication;
+import org.tablewalk.R;
+import org.tablewalk.Tools;
+import org.tablewalk.extra.ExtraCore;
+import org.tablewalk.modloaders.FabriclikeDownloadTask;
+import org.tablewalk.modloaders.FabriclikeUtils;
+import org.tablewalk.modloaders.FabricVersion;
+import org.tablewalk.modloaders.ModloaderDownloadListener;
+import org.tablewalk.modloaders.ModloaderListenerProxy;
+import org.tablewalk.modloaders.modpacks.SelfReferencingFuture;
+import org.tablewalk.progresskeeper.ProgressKeeper;
 
 import java.io.File;
 import java.io.IOException;

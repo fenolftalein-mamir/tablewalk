@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.progresskeeper;
+package org.tablewalk.progresskeeper;
 
 public class ProgressState {
     int progress;

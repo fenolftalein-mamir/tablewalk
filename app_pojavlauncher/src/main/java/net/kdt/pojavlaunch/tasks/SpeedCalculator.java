@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.tasks;
+package org.tablewalk.tasks;
 
 /**
  * A simple class to calculate the average Internet speed using a simple moving average.

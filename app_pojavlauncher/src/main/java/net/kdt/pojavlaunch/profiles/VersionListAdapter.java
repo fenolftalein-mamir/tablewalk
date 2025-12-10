@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.profiles;
+package org.tablewalk.profiles;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,10 +8,10 @@ import android.widget.BaseExpandableListAdapter;
 import android.widget.ExpandableListAdapter;
 import android.widget.TextView;
 
-import net.kdt.pojavlaunch.JMinecraftVersionList;
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.utils.FilteredSubList;
+import org.tablewalk.JMinecraftVersionList;
+import org.tablewalk.R;
+import org.tablewalk.Tools;
+import org.tablewalk.utils.FilteredSubList;
 
 import java.io.File;
 import java.util.Arrays;

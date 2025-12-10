@@ -1,8 +1,8 @@
-package net.kdt.pojavlaunch;
+package org.tablewalk;
 
 import androidx.annotation.Keep;
 import java.util.*;
-import net.kdt.pojavlaunch.value.*;
+import org.tablewalk.value.*;
 
 @Keep
 @SuppressWarnings("unused") // all unused fields here are parts of JSON structures

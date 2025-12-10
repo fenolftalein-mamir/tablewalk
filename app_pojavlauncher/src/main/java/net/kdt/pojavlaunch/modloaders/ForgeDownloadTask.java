@@ -1,11 +1,11 @@
-package net.kdt.pojavlaunch.modloaders;
+package org.tablewalk.modloaders;
 
 import com.kdt.mcgui.ProgressLayout;
 
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.progresskeeper.ProgressKeeper;
-import net.kdt.pojavlaunch.utils.DownloadUtils;
+import org.tablewalk.R;
+import org.tablewalk.Tools;
+import org.tablewalk.progresskeeper.ProgressKeeper;
+import org.tablewalk.utils.DownloadUtils;
 
 import java.io.File;
 import java.io.FileNotFoundException;

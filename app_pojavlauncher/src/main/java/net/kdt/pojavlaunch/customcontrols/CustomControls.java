@@ -1,11 +1,11 @@
-package net.kdt.pojavlaunch.customcontrols;
+package org.tablewalk.customcontrols;
 import android.content.*;
 
 import androidx.annotation.Keep;
 
 import java.io.IOException;
 import java.util.*;
-import net.kdt.pojavlaunch.*;
+import org.tablewalk.*;
 
 @Keep
 public class CustomControls {

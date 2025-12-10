@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.extra;
+package org.tablewalk.extra;
 
 public class ExtraConstants {
     /* ExtraCore constant: a HashMap for converting values such as latest-snapshot or latest-release to actual game version names */

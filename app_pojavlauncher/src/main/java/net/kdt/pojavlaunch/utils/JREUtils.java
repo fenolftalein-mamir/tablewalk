@@ -1,14 +1,14 @@
-package net.kdt.pojavlaunch.utils;
+package org.tablewalk.utils;
 
-import static net.kdt.pojavlaunch.Architecture.ARCH_X86;
-import static net.kdt.pojavlaunch.Architecture.is64BitsDevice;
-import static net.kdt.pojavlaunch.Tools.LOCAL_RENDERER;
-import static net.kdt.pojavlaunch.Tools.NATIVE_LIB_DIR;
-import static net.kdt.pojavlaunch.Tools.currentDisplayMetrics;
-import static net.kdt.pojavlaunch.Tools.shareLog;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_DUMP_SHADERS;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_VSYNC_IN_ZINK;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_ZINK_PREFER_SYSTEM_DRIVER;
+import static org.tablewalk.Architecture.ARCH_X86;
+import static org.tablewalk.Architecture.is64BitsDevice;
+import static org.tablewalk.Tools.LOCAL_RENDERER;
+import static org.tablewalk.Tools.NATIVE_LIB_DIR;
+import static org.tablewalk.Tools.currentDisplayMetrics;
+import static org.tablewalk.Tools.shareLog;
+import static org.tablewalk.prefs.LauncherPreferences.PREF_DUMP_SHADERS;
+import static org.tablewalk.prefs.LauncherPreferences.PREF_VSYNC_IN_ZINK;
+import static org.tablewalk.prefs.LauncherPreferences.PREF_ZINK_PREFER_SYSTEM_DRIVER;
 
 import android.app.*;
 import android.content.*;
@@ -22,14 +22,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.oracle.dalvik.*;
 import java.io.*;
 import java.util.*;
-import net.kdt.pojavlaunch.*;
-import net.kdt.pojavlaunch.extra.ExtraConstants;
-import net.kdt.pojavlaunch.extra.ExtraCore;
-import net.kdt.pojavlaunch.lifecycle.LifecycleAwareAlertDialog;
-import net.kdt.pojavlaunch.multirt.MultiRTUtils;
-import net.kdt.pojavlaunch.multirt.Runtime;
-import net.kdt.pojavlaunch.plugins.FFmpegPlugin;
-import net.kdt.pojavlaunch.prefs.*;
+import org.tablewalk.*;
+import org.tablewalk.extra.ExtraConstants;
+import org.tablewalk.extra.ExtraCore;
+import org.tablewalk.lifecycle.LifecycleAwareAlertDialog;
+import org.tablewalk.multirt.MultiRTUtils;
+import org.tablewalk.multirt.Runtime;
+import org.tablewalk.plugins.FFmpegPlugin;
+import org.tablewalk.prefs.*;
 
 import org.lwjgl.glfw.*;
 

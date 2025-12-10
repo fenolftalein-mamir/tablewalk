@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.prefs.screens;
+package org.tablewalk.prefs.screens;
 
 import android.content.SharedPreferences;
 import android.os.Build;
@@ -8,10 +8,10 @@ import androidx.preference.ListPreference;
 import androidx.preference.SwitchPreference;
 import androidx.preference.SwitchPreferenceCompat;
 
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.prefs.CustomSeekBarPreference;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
+import org.tablewalk.R;
+import org.tablewalk.Tools;
+import org.tablewalk.prefs.CustomSeekBarPreference;
+import org.tablewalk.prefs.LauncherPreferences;
 
 /**
  * Fragment for any settings video related

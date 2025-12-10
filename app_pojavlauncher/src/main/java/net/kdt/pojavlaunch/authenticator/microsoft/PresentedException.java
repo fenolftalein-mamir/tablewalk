@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.authenticator.microsoft;
+package org.tablewalk.authenticator.microsoft;
 
 import android.content.Context;
 

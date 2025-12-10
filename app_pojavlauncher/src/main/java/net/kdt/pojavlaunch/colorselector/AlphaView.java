@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.colorselector;
+package org.tablewalk.colorselector;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -15,7 +15,7 @@ import android.view.View;
 
 import androidx.core.math.MathUtils;
 
-import net.kdt.pojavlaunch.Tools;
+import org.tablewalk.Tools;
 
 import top.defaults.checkerboarddrawable.CheckerboardDrawable;
 

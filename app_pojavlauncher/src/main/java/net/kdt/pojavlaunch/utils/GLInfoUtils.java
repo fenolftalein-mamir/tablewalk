@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.utils;
+package org.tablewalk.utils;
 
 import android.opengl.EGL14;
 import android.opengl.EGLConfig;

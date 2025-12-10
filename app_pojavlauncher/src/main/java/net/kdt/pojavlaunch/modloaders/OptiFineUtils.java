@@ -1,9 +1,9 @@
-package net.kdt.pojavlaunch.modloaders;
+package org.tablewalk.modloaders;
 
 import android.content.Intent;
 
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.utils.DownloadUtils;
+import org.tablewalk.Tools;
+import org.tablewalk.utils.DownloadUtils;
 
 import java.io.File;
 import java.io.IOException;

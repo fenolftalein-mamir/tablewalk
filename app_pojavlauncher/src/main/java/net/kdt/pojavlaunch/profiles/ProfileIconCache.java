@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.profiles;
+package org.tablewalk.profiles;
 
 import android.content.res.Resources;
 import android.graphics.Bitmap;
@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.content.res.ResourcesCompat;
 
-import net.kdt.pojavlaunch.R;
+import org.tablewalk.R;
 
 import java.util.HashMap;
 import java.util.Map;

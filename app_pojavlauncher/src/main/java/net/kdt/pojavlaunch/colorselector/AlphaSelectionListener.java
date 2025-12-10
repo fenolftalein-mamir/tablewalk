@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.colorselector;
+package org.tablewalk.colorselector;
 
 public interface AlphaSelectionListener {
     void onAlphaSelected(int alpha);

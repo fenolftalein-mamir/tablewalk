@@ -1,14 +1,14 @@
-package net.kdt.pojavlaunch.fragments;
+package org.tablewalk.fragments;
 
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.widget.ExpandableListAdapter;
 
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.modloaders.BTADownloadTask;
-import net.kdt.pojavlaunch.modloaders.BTAUtils;
-import net.kdt.pojavlaunch.modloaders.BTAVersionListAdapter;
-import net.kdt.pojavlaunch.modloaders.ModloaderListenerProxy;
+import org.tablewalk.R;
+import org.tablewalk.modloaders.BTADownloadTask;
+import org.tablewalk.modloaders.BTAUtils;
+import org.tablewalk.modloaders.BTAVersionListAdapter;
+import org.tablewalk.modloaders.ModloaderListenerProxy;
 
 import java.io.File;
 import java.io.IOException;

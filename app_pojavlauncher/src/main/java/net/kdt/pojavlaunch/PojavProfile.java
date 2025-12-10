@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch;
+package org.tablewalk;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -6,7 +6,7 @@ import android.content.SharedPreferences;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import net.kdt.pojavlaunch.value.MinecraftAccount;
+import org.tablewalk.value.MinecraftAccount;
 
 import java.io.File;
 import java.io.IOException;

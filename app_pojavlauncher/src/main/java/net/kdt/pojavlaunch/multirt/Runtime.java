@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.multirt;
+package org.tablewalk.multirt;
 
 import java.util.Objects;
 

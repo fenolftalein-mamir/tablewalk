@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.modloaders;
+package org.tablewalk.modloaders;
 
 import android.util.Log;
 
@@ -7,8 +7,8 @@ import androidx.annotation.Keep;
 import com.google.gson.JsonParseException;
 import com.google.gson.annotations.SerializedName;
 
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.utils.DownloadUtils;
+import org.tablewalk.Tools;
+import org.tablewalk.utils.DownloadUtils;
 
 import java.io.IOException;
 import java.util.ArrayList;

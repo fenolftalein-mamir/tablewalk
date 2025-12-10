@@ -1,9 +1,9 @@
-package net.kdt.pojavlaunch.prefs;
+package org.tablewalk.prefs;
 
 import static android.os.Build.VERSION.SDK_INT;
 import static android.os.Build.VERSION_CODES.P;
 
-import static net.kdt.pojavlaunch.Architecture.is32BitsDevice;
+import static org.tablewalk.Architecture.is32BitsDevice;
 
 import android.app.Activity;
 import android.content.*;
@@ -13,10 +13,10 @@ import android.os.Build;
 import android.util.DisplayMetrics;
 import android.util.Log;
 
-import net.kdt.pojavlaunch.*;
-import net.kdt.pojavlaunch.multirt.MultiRTUtils;
-import net.kdt.pojavlaunch.utils.FileUtils;
-import net.kdt.pojavlaunch.utils.JREUtils;
+import org.tablewalk.*;
+import org.tablewalk.multirt.MultiRTUtils;
+import org.tablewalk.utils.FileUtils;
+import org.tablewalk.utils.JREUtils;
 
 import java.io.File;
 import java.io.IOException;

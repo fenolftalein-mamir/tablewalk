@@ -1,16 +1,16 @@
-package net.kdt.pojavlaunch;
+package org.tablewalk;
 
-import static net.kdt.pojavlaunch.Architecture.archAsString;
+import static org.tablewalk.Architecture.archAsString;
 
 import android.app.Activity;
 import android.content.res.AssetManager;
 import android.util.Log;
 
-import net.kdt.pojavlaunch.multirt.MultiRTUtils;
-import net.kdt.pojavlaunch.multirt.Runtime;
-import net.kdt.pojavlaunch.utils.MathUtils;
-import net.kdt.pojavlaunch.value.launcherprofiles.LauncherProfiles;
-import net.kdt.pojavlaunch.value.launcherprofiles.MinecraftProfile;
+import org.tablewalk.multirt.MultiRTUtils;
+import org.tablewalk.multirt.Runtime;
+import org.tablewalk.utils.MathUtils;
+import org.tablewalk.value.launcherprofiles.LauncherProfiles;
+import org.tablewalk.value.launcherprofiles.MinecraftProfile;
 
 import java.io.IOException;
 import java.util.Arrays;

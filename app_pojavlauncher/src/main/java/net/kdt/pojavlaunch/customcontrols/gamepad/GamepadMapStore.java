@@ -1,11 +1,11 @@
-package net.kdt.pojavlaunch.customcontrols.gamepad;
+package org.tablewalk.customcontrols.gamepad;
 
 import android.util.Log;
 
 import com.google.gson.JsonParseException;
 
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.utils.FileUtils;
+import org.tablewalk.Tools;
+import org.tablewalk.utils.FileUtils;
 
 import java.io.File;
 import java.io.IOException;

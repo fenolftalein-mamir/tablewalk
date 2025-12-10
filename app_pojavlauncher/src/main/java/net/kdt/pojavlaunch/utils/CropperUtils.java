@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.utils;
+package org.tablewalk.utils;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -18,13 +18,13 @@ import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 
-import net.kdt.pojavlaunch.PojavApplication;
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.imgcropper.BitmapCropBehaviour;
-import net.kdt.pojavlaunch.imgcropper.CropperBehaviour;
-import net.kdt.pojavlaunch.imgcropper.CropperView;
-import net.kdt.pojavlaunch.imgcropper.RegionDecoderCropBehaviour;
+import org.tablewalk.PojavApplication;
+import org.tablewalk.R;
+import org.tablewalk.Tools;
+import org.tablewalk.imgcropper.BitmapCropBehaviour;
+import org.tablewalk.imgcropper.CropperBehaviour;
+import org.tablewalk.imgcropper.CropperView;
+import org.tablewalk.imgcropper.RegionDecoderCropBehaviour;
 
 import java.io.IOException;
 import java.io.InputStream;
