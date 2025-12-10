@@ -1,8 +1,8 @@
-package net.kdt.pojavlaunch.services;
+package org.tablewalk.services;
 
 import android.content.Context;
 
-import net.kdt.pojavlaunch.progresskeeper.TaskCountListener;
+import org.tablewalk.progresskeeper.TaskCountListener;
 
 public class ProgressServiceKeeper implements TaskCountListener {
     private final Context context;

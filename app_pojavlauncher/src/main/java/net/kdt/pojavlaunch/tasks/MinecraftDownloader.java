@@ -1,6 +1,6 @@
-package net.kdt.pojavlaunch.tasks;
+package org.tablewalk.tasks;
 
-import static net.kdt.pojavlaunch.PojavApplication.sExecutorService;
+import static org.tablewalk.PojavApplication.sExecutorService;
 
 import android.app.Activity;
 import android.content.Context;
@@ -13,20 +13,20 @@ import androidx.annotation.Nullable;
 
 import com.kdt.mcgui.ProgressLayout;
 
-import net.kdt.pojavlaunch.JAssetInfo;
-import net.kdt.pojavlaunch.JAssets;
-import net.kdt.pojavlaunch.JMinecraftVersionList;
-import net.kdt.pojavlaunch.NewJREUtil;
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.mirrors.DownloadMirror;
-import net.kdt.pojavlaunch.mirrors.MirrorTamperedException;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
-import net.kdt.pojavlaunch.utils.DownloadUtils;
-import net.kdt.pojavlaunch.utils.FileUtils;
-import net.kdt.pojavlaunch.value.DependentLibrary;
-import net.kdt.pojavlaunch.value.MinecraftClientInfo;
-import net.kdt.pojavlaunch.value.MinecraftLibraryArtifact;
+import org.tablewalk.JAssetInfo;
+import org.tablewalk.JAssets;
+import org.tablewalk.JMinecraftVersionList;
+import org.tablewalk.NewJREUtil;
+import org.tablewalk.R;
+import org.tablewalk.Tools;
+import org.tablewalk.mirrors.DownloadMirror;
+import org.tablewalk.mirrors.MirrorTamperedException;
+import org.tablewalk.prefs.LauncherPreferences;
+import org.tablewalk.utils.DownloadUtils;
+import org.tablewalk.utils.FileUtils;
+import org.tablewalk.value.DependentLibrary;
+import org.tablewalk.value.MinecraftClientInfo;
+import org.tablewalk.value.MinecraftLibraryArtifact;
 
 import java.io.BufferedReader;
 import java.io.File;

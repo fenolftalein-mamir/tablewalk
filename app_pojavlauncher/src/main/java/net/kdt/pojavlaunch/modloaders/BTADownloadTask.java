@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.modloaders;
+package org.tablewalk.modloaders;
 
 import android.util.Base64;
 import android.util.Base64OutputStream;
@@ -6,13 +6,13 @@ import android.util.Log;
 
 import com.kdt.mcgui.ProgressLayout;
 
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.progresskeeper.ProgressKeeper;
-import net.kdt.pojavlaunch.utils.DownloadUtils;
-import net.kdt.pojavlaunch.utils.FileUtils;
-import net.kdt.pojavlaunch.value.launcherprofiles.LauncherProfiles;
-import net.kdt.pojavlaunch.value.launcherprofiles.MinecraftProfile;
+import org.tablewalk.R;
+import org.tablewalk.Tools;
+import org.tablewalk.progresskeeper.ProgressKeeper;
+import org.tablewalk.utils.DownloadUtils;
+import org.tablewalk.utils.FileUtils;
+import org.tablewalk.value.launcherprofiles.LauncherProfiles;
+import org.tablewalk.value.launcherprofiles.MinecraftProfile;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;

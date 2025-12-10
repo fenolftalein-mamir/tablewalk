@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.scoped;
+package org.tablewalk.scoped;
 
 import android.annotation.TargetApi;
 import android.content.ContentResolver;
@@ -18,9 +18,9 @@ import android.webkit.MimeTypeMap;
 
 import androidx.annotation.Nullable;
 
-import net.kdt.pojavlaunch.BuildConfig;
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
+import org.tablewalk.BuildConfig;
+import org.tablewalk.R;
+import org.tablewalk.Tools;
 
 import org.apache.commons.io.FileUtils;
 

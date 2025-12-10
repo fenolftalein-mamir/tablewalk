@@ -1,11 +1,11 @@
-package net.kdt.pojavlaunch.value.launcherprofiles;
+package org.tablewalk.value.launcherprofiles;
 
 import android.util.Log;
 
 import androidx.annotation.NonNull;
 
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
+import org.tablewalk.Tools;
+import org.tablewalk.prefs.LauncherPreferences;
 
 import java.io.File;
 import java.io.IOException;

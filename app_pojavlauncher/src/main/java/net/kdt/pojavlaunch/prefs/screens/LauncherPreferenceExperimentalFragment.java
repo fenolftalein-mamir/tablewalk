@@ -1,8 +1,8 @@
-package net.kdt.pojavlaunch.prefs.screens;
+package org.tablewalk.prefs.screens;
 
 import android.os.Bundle;
 
-import net.kdt.pojavlaunch.R;
+import org.tablewalk.R;
 
 public class LauncherPreferenceExperimentalFragment extends LauncherPreferenceFragment {
 

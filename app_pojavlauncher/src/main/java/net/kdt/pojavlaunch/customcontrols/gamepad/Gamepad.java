@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.customcontrols.gamepad;
+package org.tablewalk.customcontrols.gamepad;
 
 
 import static android.view.MotionEvent.AXIS_HAT_X;
@@ -23,27 +23,27 @@ import android.widget.ImageView;
 import androidx.core.content.res.ResourcesCompat;
 import androidx.core.math.MathUtils;
 
-import net.kdt.pojavlaunch.GrabListener;
-import net.kdt.pojavlaunch.LwjglGlfwKeycode;
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.utils.MCOptionUtils;
+import org.tablewalk.GrabListener;
+import org.tablewalk.LwjglGlfwKeycode;
+import org.tablewalk.R;
+import org.tablewalk.utils.MCOptionUtils;
 
 import org.lwjgl.glfw.CallbackBridge;
 
-import static net.kdt.pojavlaunch.Tools.currentDisplayMetrics;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_EAST;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_NONE;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_NORTH;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_NORTH_EAST;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_NORTH_WEST;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_SOUTH;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_SOUTH_EAST;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_SOUTH_WEST;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_WEST;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.isJoystickEvent;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_DEADZONE_SCALE;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_SCALE_FACTOR;
-import static net.kdt.pojavlaunch.utils.MCOptionUtils.getMcScale;
+import static org.tablewalk.Tools.currentDisplayMetrics;
+import static org.tablewalk.customcontrols.gamepad.GamepadJoystick.DIRECTION_EAST;
+import static org.tablewalk.customcontrols.gamepad.GamepadJoystick.DIRECTION_NONE;
+import static org.tablewalk.customcontrols.gamepad.GamepadJoystick.DIRECTION_NORTH;
+import static org.tablewalk.customcontrols.gamepad.GamepadJoystick.DIRECTION_NORTH_EAST;
+import static org.tablewalk.customcontrols.gamepad.GamepadJoystick.DIRECTION_NORTH_WEST;
+import static org.tablewalk.customcontrols.gamepad.GamepadJoystick.DIRECTION_SOUTH;
+import static org.tablewalk.customcontrols.gamepad.GamepadJoystick.DIRECTION_SOUTH_EAST;
+import static org.tablewalk.customcontrols.gamepad.GamepadJoystick.DIRECTION_SOUTH_WEST;
+import static org.tablewalk.customcontrols.gamepad.GamepadJoystick.DIRECTION_WEST;
+import static org.tablewalk.customcontrols.gamepad.GamepadJoystick.isJoystickEvent;
+import static org.tablewalk.prefs.LauncherPreferences.PREF_DEADZONE_SCALE;
+import static org.tablewalk.prefs.LauncherPreferences.PREF_SCALE_FACTOR;
+import static org.tablewalk.utils.MCOptionUtils.getMcScale;
 import static org.lwjgl.glfw.CallbackBridge.sendKeyPress;
 import static org.lwjgl.glfw.CallbackBridge.sendMouseButton;
 

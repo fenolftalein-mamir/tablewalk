@@ -1,6 +1,6 @@
-package net.kdt.pojavlaunch.customcontrols.gamepad;
+package org.tablewalk.customcontrols.gamepad;
 
-import net.kdt.pojavlaunch.GrabListener;
+import org.tablewalk.GrabListener;
 
 import org.lwjgl.glfw.CallbackBridge;
 

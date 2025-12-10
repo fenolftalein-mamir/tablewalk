@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.customcontrols.gamepad;
+package org.tablewalk.customcontrols.gamepad;
 
 import android.view.KeyEvent;
 

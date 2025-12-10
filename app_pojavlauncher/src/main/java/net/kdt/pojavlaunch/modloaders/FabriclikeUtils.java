@@ -1,9 +1,9 @@
-package net.kdt.pojavlaunch.modloaders;
+package org.tablewalk.modloaders;
 
 import com.google.gson.JsonSyntaxException;
 
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.utils.DownloadUtils;
+import org.tablewalk.Tools;
+import org.tablewalk.utils.DownloadUtils;
 
 import org.json.JSONArray;
 import org.json.JSONException;

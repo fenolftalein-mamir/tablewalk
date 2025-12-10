@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch;
+package org.tablewalk;
 
 import android.Manifest;
 import android.app.Activity;
@@ -14,8 +14,8 @@ import androidx.annotation.Nullable;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
-import net.kdt.pojavlaunch.tasks.AsyncAssetManager;
+import org.tablewalk.prefs.LauncherPreferences;
+import org.tablewalk.tasks.AsyncAssetManager;
 
 public class TestStorageActivity extends Activity {
     private final int REQUEST_STORAGE_REQUEST_CODE = 1;

@@ -1,8 +1,8 @@
-package net.kdt.pojavlaunch.utils;
+package org.tablewalk.utils;
 
 
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.DEFAULT_PREF;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_FORCE_ENGLISH;
+import static org.tablewalk.prefs.LauncherPreferences.DEFAULT_PREF;
+import static org.tablewalk.prefs.LauncherPreferences.PREF_FORCE_ENGLISH;
 
 import android.content.*;
 import android.content.res.*;

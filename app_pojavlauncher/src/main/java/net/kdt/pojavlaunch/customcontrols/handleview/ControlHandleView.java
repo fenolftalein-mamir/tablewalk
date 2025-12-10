@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.customcontrols.handleview;
+package org.tablewalk.customcontrols.handleview;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -12,8 +12,8 @@ import android.view.ViewTreeObserver;
 import androidx.annotation.Nullable;
 import androidx.core.content.res.ResourcesCompat;
 
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlInterface;
+import org.tablewalk.R;
+import org.tablewalk.customcontrols.buttons.ControlInterface;
 
 public class ControlHandleView extends View {
     public ControlHandleView(Context context) {

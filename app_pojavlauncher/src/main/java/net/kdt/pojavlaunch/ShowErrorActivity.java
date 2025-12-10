@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch;
+package org.tablewalk;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -9,8 +9,8 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import net.kdt.pojavlaunch.lifecycle.ContextExecutorTask;
-import net.kdt.pojavlaunch.utils.NotificationUtils;
+import org.tablewalk.lifecycle.ContextExecutorTask;
+import org.tablewalk.utils.NotificationUtils;
 
 import java.io.Serializable;
 

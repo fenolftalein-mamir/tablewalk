@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.fragments;
+package org.tablewalk.fragments;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -19,13 +19,13 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.modloaders.modpacks.ModItemAdapter;
-import net.kdt.pojavlaunch.modloaders.modpacks.api.CommonApi;
-import net.kdt.pojavlaunch.modloaders.modpacks.api.ModpackApi;
-import net.kdt.pojavlaunch.modloaders.modpacks.models.SearchFilters;
-import net.kdt.pojavlaunch.profiles.VersionSelectorDialog;
-import net.kdt.pojavlaunch.progresskeeper.ProgressKeeper;
+import org.tablewalk.R;
+import org.tablewalk.modloaders.modpacks.ModItemAdapter;
+import org.tablewalk.modloaders.modpacks.api.CommonApi;
+import org.tablewalk.modloaders.modpacks.api.ModpackApi;
+import org.tablewalk.modloaders.modpacks.models.SearchFilters;
+import org.tablewalk.profiles.VersionSelectorDialog;
+import org.tablewalk.progresskeeper.ProgressKeeper;
 
 public class SearchModFragment extends Fragment implements ModItemAdapter.SearchResultCallback {
 

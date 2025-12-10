@@ -1,14 +1,14 @@
-package net.kdt.pojavlaunch.prefs;
+package org.tablewalk.prefs;
 
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_DISABLE_GESTURES;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_ENABLE_GYRO;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_GYRO_INVERT_X;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_GYRO_INVERT_Y;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_GYRO_SENSITIVITY;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_LONGPRESS_TRIGGER;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_MOUSESPEED;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_MOUSE_GRAB_FORCE;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_SCALE_FACTOR;
+import static org.tablewalk.prefs.LauncherPreferences.PREF_DISABLE_GESTURES;
+import static org.tablewalk.prefs.LauncherPreferences.PREF_ENABLE_GYRO;
+import static org.tablewalk.prefs.LauncherPreferences.PREF_GYRO_INVERT_X;
+import static org.tablewalk.prefs.LauncherPreferences.PREF_GYRO_INVERT_Y;
+import static org.tablewalk.prefs.LauncherPreferences.PREF_GYRO_SENSITIVITY;
+import static org.tablewalk.prefs.LauncherPreferences.PREF_LONGPRESS_TRIGGER;
+import static org.tablewalk.prefs.LauncherPreferences.PREF_MOUSESPEED;
+import static org.tablewalk.prefs.LauncherPreferences.PREF_MOUSE_GRAB_FORCE;
+import static org.tablewalk.prefs.LauncherPreferences.PREF_SCALE_FACTOR;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -20,9 +20,9 @@ import android.widget.TextView;
 
 import com.kdt.CustomSeekbar;
 
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.utils.interfaces.SimpleSeekBarListener;
+import org.tablewalk.R;
+import org.tablewalk.Tools;
+import org.tablewalk.utils.interfaces.SimpleSeekBarListener;
 
 /**
  * Side dialog for quick settings that you can change in game

@@ -1,13 +1,13 @@
-package net.kdt.pojavlaunch.prefs;
+package org.tablewalk.prefs;
 
 import android.content.Context;
 import android.util.AttributeSet;
 
 import androidx.preference.Preference;
 
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.extra.ExtraConstants;
-import net.kdt.pojavlaunch.extra.ExtraCore;
+import org.tablewalk.R;
+import org.tablewalk.extra.ExtraConstants;
+import org.tablewalk.extra.ExtraCore;
 
 public class BackButtonPreference extends Preference {
     public BackButtonPreference(Context context, AttributeSet attrs) {

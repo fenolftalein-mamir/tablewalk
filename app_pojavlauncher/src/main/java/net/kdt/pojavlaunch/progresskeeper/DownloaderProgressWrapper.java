@@ -1,8 +1,8 @@
-package net.kdt.pojavlaunch.progresskeeper;
+package org.tablewalk.progresskeeper;
 
-import static net.kdt.pojavlaunch.Tools.BYTE_TO_MB;
+import static org.tablewalk.Tools.BYTE_TO_MB;
 
-import net.kdt.pojavlaunch.Tools;
+import org.tablewalk.Tools;
 
 public class DownloaderProgressWrapper implements Tools.DownloaderFeedback {
 

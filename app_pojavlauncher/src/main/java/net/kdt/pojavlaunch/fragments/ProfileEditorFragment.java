@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.fragments;
+package org.tablewalk.fragments;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -22,19 +22,19 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.extra.ExtraConstants;
-import net.kdt.pojavlaunch.extra.ExtraCore;
-import net.kdt.pojavlaunch.multirt.MultiRTUtils;
-import net.kdt.pojavlaunch.multirt.RTSpinnerAdapter;
-import net.kdt.pojavlaunch.multirt.Runtime;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
-import net.kdt.pojavlaunch.profiles.ProfileIconCache;
-import net.kdt.pojavlaunch.profiles.VersionSelectorDialog;
-import net.kdt.pojavlaunch.utils.CropperUtils;
-import net.kdt.pojavlaunch.value.launcherprofiles.LauncherProfiles;
-import net.kdt.pojavlaunch.value.launcherprofiles.MinecraftProfile;
+import org.tablewalk.R;
+import org.tablewalk.Tools;
+import org.tablewalk.extra.ExtraConstants;
+import org.tablewalk.extra.ExtraCore;
+import org.tablewalk.multirt.MultiRTUtils;
+import org.tablewalk.multirt.RTSpinnerAdapter;
+import org.tablewalk.multirt.Runtime;
+import org.tablewalk.prefs.LauncherPreferences;
+import org.tablewalk.profiles.ProfileIconCache;
+import org.tablewalk.profiles.VersionSelectorDialog;
+import org.tablewalk.utils.CropperUtils;
+import org.tablewalk.value.launcherprofiles.LauncherProfiles;
+import org.tablewalk.value.launcherprofiles.MinecraftProfile;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

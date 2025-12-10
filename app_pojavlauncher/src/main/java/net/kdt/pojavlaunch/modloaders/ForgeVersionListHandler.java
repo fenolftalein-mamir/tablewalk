@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.modloaders;
+package org.tablewalk.modloaders;
 
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;

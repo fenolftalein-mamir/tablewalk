@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.modloaders;
+package org.tablewalk.modloaders;
 
 import android.view.LayoutInflater;
 import android.view.View;

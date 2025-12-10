@@ -1,13 +1,13 @@
-package net.kdt.pojavlaunch.customcontrols.mouse;
+package org.tablewalk.customcontrols.mouse;
 
 import static org.lwjgl.glfw.CallbackBridge.sendMouseButton;
 
 import android.os.Handler;
 
-import net.kdt.pojavlaunch.LwjglGlfwKeycode;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
-import net.kdt.pojavlaunch.utils.MathUtils;
+import org.tablewalk.LwjglGlfwKeycode;
+import org.tablewalk.Tools;
+import org.tablewalk.prefs.LauncherPreferences;
+import org.tablewalk.utils.MathUtils;
 
 import org.lwjgl.glfw.CallbackBridge;
 

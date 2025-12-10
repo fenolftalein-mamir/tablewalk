@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.utils;
+package org.tablewalk.utils;
 
 import java.util.*;
 

@@ -1,15 +1,15 @@
-package net.kdt.pojavlaunch.customcontrols;
+package org.tablewalk.customcontrols;
 
-import static net.kdt.pojavlaunch.LwjglGlfwKeycode.GLFW_KEY_UNKNOWN;
+import static org.tablewalk.LwjglGlfwKeycode.GLFW_KEY_UNKNOWN;
 
 import android.util.ArrayMap;
 
 import androidx.annotation.Keep;
 
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlInterface;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
-import net.kdt.pojavlaunch.utils.JSONUtils;
+import org.tablewalk.Tools;
+import org.tablewalk.customcontrols.buttons.ControlInterface;
+import org.tablewalk.prefs.LauncherPreferences;
+import org.tablewalk.utils.JSONUtils;
 import net.objecthunter.exp4j.ExpressionBuilder;
 import net.objecthunter.exp4j.function.Function;
 

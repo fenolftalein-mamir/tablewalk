@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.profiles;
+package org.tablewalk.profiles;
 
 import android.graphics.drawable.Drawable;
 

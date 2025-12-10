@@ -1,9 +1,9 @@
-package net.kdt.pojavlaunch.tasks;
+package org.tablewalk.tasks;
 
-import net.kdt.pojavlaunch.JMinecraftVersionList;
-import net.kdt.pojavlaunch.extra.ExtraConstants;
-import net.kdt.pojavlaunch.extra.ExtraCore;
-import net.kdt.pojavlaunch.value.launcherprofiles.MinecraftProfile;
+import org.tablewalk.JMinecraftVersionList;
+import org.tablewalk.extra.ExtraConstants;
+import org.tablewalk.extra.ExtraCore;
+import org.tablewalk.value.launcherprofiles.MinecraftProfile;
 
 public class AsyncMinecraftDownloader {
     public static String normalizeVersionId(String versionString) {

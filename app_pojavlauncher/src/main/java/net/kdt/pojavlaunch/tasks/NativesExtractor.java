@@ -1,8 +1,8 @@
-package net.kdt.pojavlaunch.tasks;
+package org.tablewalk.tasks;
 
-import net.kdt.pojavlaunch.Architecture;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.utils.FileUtils;
+import org.tablewalk.Architecture;
+import org.tablewalk.Tools;
+import org.tablewalk.utils.FileUtils;
 
 import java.io.File;
 import java.io.FileInputStream;

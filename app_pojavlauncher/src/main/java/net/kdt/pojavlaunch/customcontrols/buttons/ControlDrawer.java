@@ -1,15 +1,15 @@
-package net.kdt.pojavlaunch.customcontrols.buttons;
+package org.tablewalk.customcontrols.buttons;
 
 import android.annotation.SuppressLint;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.customcontrols.ControlData;
-import net.kdt.pojavlaunch.customcontrols.ControlDrawerData;
-import net.kdt.pojavlaunch.customcontrols.ControlLayout;
-import net.kdt.pojavlaunch.customcontrols.handleview.EditControlSideDialog;
+import org.tablewalk.Tools;
+import org.tablewalk.customcontrols.ControlData;
+import org.tablewalk.customcontrols.ControlDrawerData;
+import org.tablewalk.customcontrols.ControlLayout;
+import org.tablewalk.customcontrols.handleview.EditControlSideDialog;
 
 import java.util.ArrayList;
 

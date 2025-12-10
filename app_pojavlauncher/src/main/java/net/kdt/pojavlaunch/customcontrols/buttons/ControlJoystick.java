@@ -1,25 +1,25 @@
-package net.kdt.pojavlaunch.customcontrols.buttons;
+package org.tablewalk.customcontrols.buttons;
 
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_EAST;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_NONE;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_NORTH;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_NORTH_EAST;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_NORTH_WEST;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_SOUTH;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_SOUTH_EAST;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_SOUTH_WEST;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_WEST;
+import static org.tablewalk.customcontrols.gamepad.GamepadJoystick.DIRECTION_EAST;
+import static org.tablewalk.customcontrols.gamepad.GamepadJoystick.DIRECTION_NONE;
+import static org.tablewalk.customcontrols.gamepad.GamepadJoystick.DIRECTION_NORTH;
+import static org.tablewalk.customcontrols.gamepad.GamepadJoystick.DIRECTION_NORTH_EAST;
+import static org.tablewalk.customcontrols.gamepad.GamepadJoystick.DIRECTION_NORTH_WEST;
+import static org.tablewalk.customcontrols.gamepad.GamepadJoystick.DIRECTION_SOUTH;
+import static org.tablewalk.customcontrols.gamepad.GamepadJoystick.DIRECTION_SOUTH_EAST;
+import static org.tablewalk.customcontrols.gamepad.GamepadJoystick.DIRECTION_SOUTH_WEST;
+import static org.tablewalk.customcontrols.gamepad.GamepadJoystick.DIRECTION_WEST;
 
 import android.annotation.SuppressLint;
 import android.view.View;
 
-import net.kdt.pojavlaunch.LwjglGlfwKeycode;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.customcontrols.ControlData;
-import net.kdt.pojavlaunch.customcontrols.ControlJoystickData;
-import net.kdt.pojavlaunch.customcontrols.ControlLayout;
-import net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick;
-import net.kdt.pojavlaunch.customcontrols.handleview.EditControlSideDialog;
+import org.tablewalk.LwjglGlfwKeycode;
+import org.tablewalk.Tools;
+import org.tablewalk.customcontrols.ControlData;
+import org.tablewalk.customcontrols.ControlJoystickData;
+import org.tablewalk.customcontrols.ControlLayout;
+import org.tablewalk.customcontrols.gamepad.GamepadJoystick;
+import org.tablewalk.customcontrols.handleview.EditControlSideDialog;
 
 import org.lwjgl.glfw.CallbackBridge;
 

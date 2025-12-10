@@ -1,14 +1,14 @@
-package net.kdt.pojavlaunch.modloaders.modpacks.api;
+package org.tablewalk.modloaders.modpacks.api;
 
 import android.content.Context;
 import android.content.Intent;
 
-import net.kdt.pojavlaunch.JavaGUILauncherActivity;
-import net.kdt.pojavlaunch.modloaders.FabriclikeDownloadTask;
-import net.kdt.pojavlaunch.modloaders.FabriclikeUtils;
-import net.kdt.pojavlaunch.modloaders.ForgeDownloadTask;
-import net.kdt.pojavlaunch.modloaders.ForgeUtils;
-import net.kdt.pojavlaunch.modloaders.ModloaderDownloadListener;
+import org.tablewalk.JavaGUILauncherActivity;
+import org.tablewalk.modloaders.FabriclikeDownloadTask;
+import org.tablewalk.modloaders.FabriclikeUtils;
+import org.tablewalk.modloaders.ForgeDownloadTask;
+import org.tablewalk.modloaders.ForgeUtils;
+import org.tablewalk.modloaders.ModloaderDownloadListener;
 
 import java.io.File;
 

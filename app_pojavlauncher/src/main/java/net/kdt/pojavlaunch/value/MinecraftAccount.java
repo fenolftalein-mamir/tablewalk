@@ -1,11 +1,11 @@
-package net.kdt.pojavlaunch.value;
+package org.tablewalk.value;
 
 
 import android.graphics.BitmapFactory;
 import android.util.Log;
 
-import net.kdt.pojavlaunch.*;
-import net.kdt.pojavlaunch.utils.FileUtils;
+import org.tablewalk.*;
+import org.tablewalk.utils.FileUtils;
 
 import java.io.*;
 import com.google.gson.*;

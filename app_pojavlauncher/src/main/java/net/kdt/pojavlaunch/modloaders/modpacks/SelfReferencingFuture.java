@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.modloaders.modpacks;
+package org.tablewalk.modloaders.modpacks;
 
 import android.util.Log;
 

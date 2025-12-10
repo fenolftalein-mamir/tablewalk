@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.utils;
+package org.tablewalk.utils;
 
 import android.util.Log;
 
@@ -9,7 +9,7 @@ import java.net.*;
 import java.nio.charset.*;
 import java.util.concurrent.Callable;
 
-import net.kdt.pojavlaunch.*;
+import org.tablewalk.*;
 import org.apache.commons.io.*;
 
 @SuppressWarnings("IOStreamConstructor")

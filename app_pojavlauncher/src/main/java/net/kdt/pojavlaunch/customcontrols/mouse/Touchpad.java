@@ -1,6 +1,6 @@
-package net.kdt.pojavlaunch.customcontrols.mouse;
+package org.tablewalk.customcontrols.mouse;
 
-import static net.kdt.pojavlaunch.Tools.currentDisplayMetrics;
+import static org.tablewalk.Tools.currentDisplayMetrics;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -13,9 +13,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.content.res.ResourcesCompat;
 
-import net.kdt.pojavlaunch.GrabListener;
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
+import org.tablewalk.GrabListener;
+import org.tablewalk.R;
+import org.tablewalk.prefs.LauncherPreferences;
 
 import org.lwjgl.glfw.CallbackBridge;
 

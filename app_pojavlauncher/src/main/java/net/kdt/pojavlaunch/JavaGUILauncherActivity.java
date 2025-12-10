@@ -1,6 +1,6 @@
-package net.kdt.pojavlaunch;
+package org.tablewalk;
 
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.DEFAULT_PREF;
+import static org.tablewalk.prefs.LauncherPreferences.DEFAULT_PREF;
 
 import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
@@ -21,13 +21,13 @@ import androidx.appcompat.app.AlertDialog;
 
 import com.kdt.LoggerView;
 
-import net.kdt.pojavlaunch.customcontrols.keyboard.AwtCharSender;
-import net.kdt.pojavlaunch.customcontrols.keyboard.TouchCharInput;
-import net.kdt.pojavlaunch.multirt.MultiRTUtils;
-import net.kdt.pojavlaunch.multirt.Runtime;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
-import net.kdt.pojavlaunch.utils.JREUtils;
-import net.kdt.pojavlaunch.utils.MathUtils;
+import org.tablewalk.customcontrols.keyboard.AwtCharSender;
+import org.tablewalk.customcontrols.keyboard.TouchCharInput;
+import org.tablewalk.multirt.MultiRTUtils;
+import org.tablewalk.multirt.Runtime;
+import org.tablewalk.prefs.LauncherPreferences;
+import org.tablewalk.utils.JREUtils;
+import org.tablewalk.utils.MathUtils;
 
 import org.apache.commons.io.IOUtils;
 import org.lwjgl.glfw.CallbackBridge;

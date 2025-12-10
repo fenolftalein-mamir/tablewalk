@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.colorselector;
+package org.tablewalk.colorselector;
 
 import android.content.Context;
 import android.graphics.Canvas;

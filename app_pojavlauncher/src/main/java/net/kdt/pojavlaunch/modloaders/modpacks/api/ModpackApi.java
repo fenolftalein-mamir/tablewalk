@@ -1,17 +1,17 @@
-package net.kdt.pojavlaunch.modloaders.modpacks.api;
+package org.tablewalk.modloaders.modpacks.api;
 
 
 import android.content.Context;
 
 import com.kdt.mcgui.ProgressLayout;
 
-import net.kdt.pojavlaunch.PojavApplication;
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.modloaders.modpacks.models.ModDetail;
-import net.kdt.pojavlaunch.modloaders.modpacks.models.ModItem;
-import net.kdt.pojavlaunch.modloaders.modpacks.models.SearchFilters;
-import net.kdt.pojavlaunch.modloaders.modpacks.models.SearchResult;
+import org.tablewalk.PojavApplication;
+import org.tablewalk.R;
+import org.tablewalk.Tools;
+import org.tablewalk.modloaders.modpacks.models.ModDetail;
+import org.tablewalk.modloaders.modpacks.models.ModItem;
+import org.tablewalk.modloaders.modpacks.models.SearchFilters;
+import org.tablewalk.modloaders.modpacks.models.SearchResult;
 
 import java.io.IOException;
 

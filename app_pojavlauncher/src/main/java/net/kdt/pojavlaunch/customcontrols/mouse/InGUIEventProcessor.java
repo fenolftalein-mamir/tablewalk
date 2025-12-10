@@ -1,12 +1,12 @@
-package net.kdt.pojavlaunch.customcontrols.mouse;
+package org.tablewalk.customcontrols.mouse;
 
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 
-import net.kdt.pojavlaunch.LwjglGlfwKeycode;
-import net.kdt.pojavlaunch.SingleTapConfirm;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
+import org.tablewalk.LwjglGlfwKeycode;
+import org.tablewalk.SingleTapConfirm;
+import org.tablewalk.Tools;
+import org.tablewalk.prefs.LauncherPreferences;
 
 import org.lwjgl.glfw.CallbackBridge;
 

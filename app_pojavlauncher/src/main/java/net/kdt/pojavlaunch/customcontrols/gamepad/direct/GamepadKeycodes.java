@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.customcontrols.gamepad.direct;
+package org.tablewalk.customcontrols.gamepad.direct;
 
 public class GamepadKeycodes {
     public static final byte GLFW_RELEASE = 0;

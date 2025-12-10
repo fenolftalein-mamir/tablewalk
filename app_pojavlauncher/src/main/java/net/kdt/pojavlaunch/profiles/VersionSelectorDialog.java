@@ -1,6 +1,6 @@
-package net.kdt.pojavlaunch.profiles;
+package org.tablewalk.profiles;
 
-import static net.kdt.pojavlaunch.extra.ExtraCore.getValue;
+import static org.tablewalk.extra.ExtraCore.getValue;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,9 +8,9 @@ import android.widget.ExpandableListView;
 
 import androidx.appcompat.app.AlertDialog;
 
-import net.kdt.pojavlaunch.JMinecraftVersionList;
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.extra.ExtraConstants;
+import org.tablewalk.JMinecraftVersionList;
+import org.tablewalk.R;
+import org.tablewalk.extra.ExtraConstants;
 
 public class VersionSelectorDialog {
     public static void open(Context context, boolean hideCustomVersions, VersionSelectorListener listener) {

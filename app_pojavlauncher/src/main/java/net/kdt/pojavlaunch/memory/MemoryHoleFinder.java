@@ -1,6 +1,6 @@
-package net.kdt.pojavlaunch.memory;
+package org.tablewalk.memory;
 
-import net.kdt.pojavlaunch.Architecture;
+import org.tablewalk.Architecture;
 
 public class MemoryHoleFinder implements SelfMapsParser.Callback {
     private long mPreviousEnd = 0;

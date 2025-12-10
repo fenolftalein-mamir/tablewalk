@@ -1,11 +1,11 @@
-package net.kdt.pojavlaunch;
+package org.tablewalk;
 
 import android.content.*;
 import android.os.*;
 import androidx.appcompat.app.*;
-import net.kdt.pojavlaunch.utils.*;
+import org.tablewalk.utils.*;
 
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_IGNORE_NOTCH;
+import static org.tablewalk.prefs.LauncherPreferences.PREF_IGNORE_NOTCH;
 
 public abstract class BaseActivity extends AppCompatActivity {
 

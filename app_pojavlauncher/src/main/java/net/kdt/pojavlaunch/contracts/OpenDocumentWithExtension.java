@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.contracts;
+package org.tablewalk.contracts;
 
 import android.app.Activity;
 import android.content.Context;

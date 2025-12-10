@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.modloaders.modpacks.models;
+package org.tablewalk.modloaders.modpacks.models;
 
 public class SearchResult {
     public int totalResultCount;

@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.value.launcherprofiles;
+package org.tablewalk.value.launcherprofiles;
 
 import androidx.annotation.Keep;
 

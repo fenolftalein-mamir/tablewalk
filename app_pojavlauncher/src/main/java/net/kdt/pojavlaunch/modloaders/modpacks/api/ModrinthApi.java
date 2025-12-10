@@ -1,19 +1,19 @@
-package net.kdt.pojavlaunch.modloaders.modpacks.api;
+package org.tablewalk.modloaders.modpacks.api;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.kdt.mcgui.ProgressLayout;
 
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.modloaders.modpacks.models.Constants;
-import net.kdt.pojavlaunch.modloaders.modpacks.models.ModDetail;
-import net.kdt.pojavlaunch.modloaders.modpacks.models.ModItem;
-import net.kdt.pojavlaunch.modloaders.modpacks.models.ModrinthIndex;
-import net.kdt.pojavlaunch.modloaders.modpacks.models.SearchFilters;
-import net.kdt.pojavlaunch.modloaders.modpacks.models.SearchResult;
-import net.kdt.pojavlaunch.progresskeeper.DownloaderProgressWrapper;
-import net.kdt.pojavlaunch.utils.ZipUtils;
+import org.tablewalk.R;
+import org.tablewalk.Tools;
+import org.tablewalk.modloaders.modpacks.models.Constants;
+import org.tablewalk.modloaders.modpacks.models.ModDetail;
+import org.tablewalk.modloaders.modpacks.models.ModItem;
+import org.tablewalk.modloaders.modpacks.models.ModrinthIndex;
+import org.tablewalk.modloaders.modpacks.models.SearchFilters;
+import org.tablewalk.modloaders.modpacks.models.SearchResult;
+import org.tablewalk.progresskeeper.DownloaderProgressWrapper;
+import org.tablewalk.utils.ZipUtils;
 
 import java.io.File;
 import java.io.IOException;

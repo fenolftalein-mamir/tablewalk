@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.modloaders.modpacks.models;
+package org.tablewalk.modloaders.modpacks.models;
 
 public abstract class ModSource {
     public int apiSource;

@@ -1,7 +1,7 @@
-package net.kdt.pojavlaunch.prefs.screens;
+package org.tablewalk.prefs.screens;
 
-import static net.kdt.pojavlaunch.Architecture.is32BitsDevice;
-import static net.kdt.pojavlaunch.Tools.getTotalDeviceMemory;
+import static org.tablewalk.Architecture.is32BitsDevice;
+import static org.tablewalk.Tools.getTotalDeviceMemory;
 
 import android.os.Bundle;
 import android.widget.TextView;
@@ -12,12 +12,12 @@ import androidx.preference.EditTextPreference;
 import androidx.preference.Preference;
 import androidx.preference.SwitchPreference;
 
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.contracts.OpenDocumentWithExtension;
-import net.kdt.pojavlaunch.multirt.MultiRTConfigDialog;
-import net.kdt.pojavlaunch.prefs.CustomSeekBarPreference;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
+import org.tablewalk.R;
+import org.tablewalk.Tools;
+import org.tablewalk.contracts.OpenDocumentWithExtension;
+import org.tablewalk.multirt.MultiRTConfigDialog;
+import org.tablewalk.prefs.CustomSeekBarPreference;
+import org.tablewalk.prefs.LauncherPreferences;
 
 public class LauncherPreferenceJavaFragment extends LauncherPreferenceFragment {
     private MultiRTConfigDialog mDialogScreen;

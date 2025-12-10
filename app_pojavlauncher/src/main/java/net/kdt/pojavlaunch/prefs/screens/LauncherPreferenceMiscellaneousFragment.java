@@ -1,13 +1,13 @@
-package net.kdt.pojavlaunch.prefs.screens;
+package org.tablewalk.prefs.screens;
 
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 
 import androidx.preference.Preference;
 
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.utils.GLInfoUtils;
+import org.tablewalk.R;
+import org.tablewalk.Tools;
+import org.tablewalk.utils.GLInfoUtils;
 
 public class LauncherPreferenceMiscellaneousFragment extends LauncherPreferenceFragment {
     @Override

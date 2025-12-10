@@ -132,6 +132,6 @@
         </service>
     </application>
     <queries>
-        <package android:name="net.kdt.pojavlaunch.ffmpeg"/>
+        <package android:name="org.tablewalk.ffmpeg"/>
     </queries>
 </manifest>

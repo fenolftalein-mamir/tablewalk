@@ -28,7 +28,7 @@
  *
  *************************************************************************/
 
-package net.kdt.pojavlaunch;
+package org.tablewalk;
 
 @SuppressWarnings("unused")
 public class LwjglGlfwKeycode {

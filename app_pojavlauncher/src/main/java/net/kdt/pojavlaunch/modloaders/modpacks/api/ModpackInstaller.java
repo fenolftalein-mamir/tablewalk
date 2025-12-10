@@ -1,15 +1,15 @@
-package net.kdt.pojavlaunch.modloaders.modpacks.api;
+package org.tablewalk.modloaders.modpacks.api;
 
 import com.kdt.mcgui.ProgressLayout;
 
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.modloaders.modpacks.imagecache.ModIconCache;
-import net.kdt.pojavlaunch.modloaders.modpacks.models.ModDetail;
-import net.kdt.pojavlaunch.progresskeeper.DownloaderProgressWrapper;
-import net.kdt.pojavlaunch.utils.DownloadUtils;
-import net.kdt.pojavlaunch.value.launcherprofiles.LauncherProfiles;
-import net.kdt.pojavlaunch.value.launcherprofiles.MinecraftProfile;
+import org.tablewalk.R;
+import org.tablewalk.Tools;
+import org.tablewalk.modloaders.modpacks.imagecache.ModIconCache;
+import org.tablewalk.modloaders.modpacks.models.ModDetail;
+import org.tablewalk.progresskeeper.DownloaderProgressWrapper;
+import org.tablewalk.utils.DownloadUtils;
+import org.tablewalk.value.launcherprofiles.LauncherProfiles;
+import org.tablewalk.value.launcherprofiles.MinecraftProfile;
 
 import java.io.File;
 import java.io.IOException;

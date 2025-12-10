@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.customcontrols.handleview;
+package org.tablewalk.customcontrols.handleview;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -10,7 +10,7 @@ import android.view.View;
 import androidx.annotation.Nullable;
 import androidx.vectordrawable.graphics.drawable.VectorDrawableCompat;
 
-import net.kdt.pojavlaunch.R;
+import org.tablewalk.R;
 
 public class DrawerPullButton extends View {
     public DrawerPullButton(Context context) {super(context); init();}
