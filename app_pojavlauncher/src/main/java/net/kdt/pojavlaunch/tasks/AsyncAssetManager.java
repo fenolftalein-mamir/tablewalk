@@ -90,7 +90,7 @@ public class AsyncAssetManager {
                 unpackComponent(ctx, "arc_dns_injector", true);
                 unpackComponent(ctx, "lwjgl2_methods_injector", true);
                 unpackComponent(ctx, "forge_installer", true);
-                UnpackComponent(ctx, "authlib-injector", true);
+                unpackComponent(ctx, "authlib-injector", true);
             } catch (IOException e) {
                 Log.e("AsyncAssetManager", "Failed to unpack components !",e );
             }
